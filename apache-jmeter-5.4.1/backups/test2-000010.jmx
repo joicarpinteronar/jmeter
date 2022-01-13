@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="test2" enabled="true">
+      <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.2.3.17. Please contact support@blazemeter.com for further support.</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="BASE_URL_1" elementType="Argument">
+            <stringProp name="Argument.name">BASE_URL_1</stringProp>
+            <stringProp name="Argument.value">sentry.serempre.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BASE_URL_2" elementType="Argument">
+            <stringProp name="Argument.name">BASE_URL_2</stringProp>
+            <stringProp name="Argument.value">co-tc-shopper-api-dev.serempre.dev</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain"></stringProp>
+        <stringProp name="HTTPSampler.port"></stringProp>
+        <stringProp name="HTTPSampler.protocol"></stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
+        <boolProp name="HTTPSampler.image_parser">true</boolProp>
+        <boolProp name="HTTPSampler.concurrentDwn">true</boolProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <DNSCacheManager guiclass="DNSCachePanel" testclass="DNSCacheManager" testname="DNS Cache Manager" enabled="true">
+        <collectionProp name="DNSCacheManager.servers"/>
+        <boolProp name="DNSCacheManager.clearEachIteration">true</boolProp>
+        <boolProp name="DNSCacheManager.isCustomResolver">false</boolProp>
+      </DNSCacheManager>
+      <hashTree/>
+      <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
+        <collectionProp name="AuthManager.auth_list"/>
+        <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
+      </AuthManager>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+        <collectionProp name="CookieManager.cookies"/>
+        <boolProp name="CookieManager.clearEachIteration">true</boolProp>
+        <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
+        <boolProp name="clearEachIteration">true</boolProp>
+        <boolProp name="useExpires">false</boolProp>
+        <boolProp name="CacheManager.controlledByThread">false</boolProp>
+      </CacheManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration">0</stringProp>
+        <stringProp name="ThreadGroup.delay">0</stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Test" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://sentry.serempre.com/api/19/store/?sentry_key=53c56c5167924f9ca8cac12d2e47f8f0&amp;sentry_version=7" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;exception&quot;:{&quot;values&quot;:[{&quot;type&quot;:&quot;SyntaxError&quot;,&quot;value&quot;:&quot;Identifier &apos;originalPrompt&apos; has already been declared&quot;,&quot;stacktrace&quot;:{&quot;frames&quot;:[{&quot;colno&quot;:1,&quot;filename&quot;:&quot;chrome-extension://mbopgmdnpcbohhpnfglgohlbhfongabi/sideex/prompt.js&quot;,&quot;function&quot;:&quot;?&quot;,&quot;in_app&quot;:true,&quot;lineno&quot;:1}]},&quot;mechanism&quot;:{&quot;handled&quot;:false,&quot;type&quot;:&quot;onerror&quot;}}]},&quot;platform&quot;:&quot;javascript&quot;,&quot;sdk&quot;:{&quot;name&quot;:&quot;sentry.javascript.browser&quot;,&quot;packages&quot;:[{&quot;name&quot;:&quot;npm:@sentry/browser&quot;,&quot;version&quot;:&quot;5.25.0&quot;}],&quot;version&quot;:&quot;5.25.0&quot;,&quot;integrations&quot;:[&quot;InboundFilters&quot;,&quot;FunctionToString&quot;,&quot;TryCatch&quot;,&quot;Breadcrumbs&quot;,&quot;GlobalHandlers&quot;,&quot;LinkedErrors&quot;,&quot;UserAgent&quot;]},&quot;event_id&quot;:&quot;c3b5127776244e65ba811a2b39d0cb74&quot;,&quot;timestamp&quot;:1613496948.364,&quot;environment&quot;:&quot;production&quot;,&quot;release&quot;:&quot;2.2.0&quot;,&quot;breadcrumbs&quot;:[{&quot;timestamp&quot;:1613496850.13,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;err&quot;,{&quot;message&quot;:&quot;Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;,&quot;name&quot;:&quot;FirebaseError&quot;,&quot;stack&quot;:&quot;FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at e.&lt;anonymous&gt; (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:1136062)\n    at https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40761\n    at Object.next (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40866)\n    at a (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:39604)&quot;,&quot;code&quot;:&quot;messaging/permission-blocked&quot;}],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;err FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;},{&quot;timestamp&quot;:1613496850.166,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;err&quot;,{&quot;message&quot;:&quot;Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;,&quot;name&quot;:&quot;FirebaseError&quot;,&quot;stack&quot;:&quot;FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at e.&lt;anonymous&gt; (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:1136062)\n    at https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40761\n    at Object.next (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40866)\n    at a (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:39604)&quot;,&quot;code&quot;:&quot;messaging/permission-blocked&quot;}],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;err FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;},{&quot;timestamp&quot;:1613496850.32,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/categories&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.339,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=4.574690100000&amp;lng=-74.240904200000&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.373,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/popular/products&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.419,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;Obsolete Tags:&quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;Obsolete Tags:&quot;},{&quot;timestamp&quot;:1613496850.457,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/promos&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.73,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;\nIt looks like you&apos;re using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace &lt;PACKAGE&gt; with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require(&apos;firebase/app&apos;);\nrequire(&apos;firebase/&lt;PACKAGE&gt;&apos;);\n\nES Modules:\nimport firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n\nTypescript:\nimport * as firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n&quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;warning&quot;,&quot;message&quot;:&quot;\nIt looks like you&apos;re using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace &lt;PACKAGE&gt; with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require(&apos;firebase/app&apos;);\nrequire(&apos;firebase/&lt;PACKAGE&gt;&apos;);\n\nES Modules:\nimport firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n\nTypescript:\nimport * as firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n&quot;},{&quot;timestamp&quot;:1613496851.462,&quot;category&quot;:&quot;ui.click&quot;,&quot;message&quot;:&quot;a.sc-kizDGL.hNhxES.StyledTab &gt; img[alt=\&quot;Perfil\&quot;]&quot;},{&quot;timestamp&quot;:1613496851.463,&quot;category&quot;:&quot;navigation&quot;,&quot;data&quot;:{&quot;from&quot;:&quot;/consumidor/tiendas/tienda/249&quot;,&quot;to&quot;:&quot;/consumidor/cuenta&quot;}},{&quot;timestamp&quot;:1613496851.836,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/discount/terms&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496853.177,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;[2021-02-16T17:34:13.177Z]  @firebase/database:&quot;,&quot;FIREBASE WARNING: Using an unspecified index. Your data will be downloaded and filtered on the client. Consider adding \&quot;.indexOn\&quot;: \&quot;consumer\&quot; at /channels to your security rules for better performance. &quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;warning&quot;,&quot;message&quot;:&quot;[2021-02-16T17:34:13.177Z]  @firebase/database: FIREBASE WARNING: Using an unspecified index. Your data will be downloaded and filtered on the client. Consider adding \&quot;.indexOn\&quot;: \&quot;consumer\&quot; at /channels to your security rules for better performance. &quot;},{&quot;timestamp&quot;:1613496853.69,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496853.83,&quot;category&quot;:&quot;ui.click&quot;,&quot;message&quot;:&quot;div.sc-gVtpNI.tezoW.StyledNavigationPanelLink.transition.duration-300.ease-in-out.space-x-3.lg:space-x-4&quot;},{&quot;timestamp&quot;:1613496854.927,&quot;category&quot;:&quot;ui.click&quot;,&quot;message&quot;:&quot;button.sc-jSFkmK.hRxJjc.sc-iuInmz.gEFVph.StyledDialogButton.StyledButton.StyledButtonprimary.transition.duration-300.ease-in-out[type=\&quot;button\&quot;]&quot;},{&quot;timestamp&quot;:1613496855.193,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/logout&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496855.2,&quot;category&quot;:&quot;navigation&quot;,&quot;data&quot;:{&quot;from&quot;:&quot;/consumidor/cuenta&quot;,&quot;to&quot;:&quot;/&quot;}},{&quot;timestamp&quot;:1613496855.315,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;err&quot;,{&quot;message&quot;:&quot;Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;,&quot;name&quot;:&quot;FirebaseError&quot;,&quot;stack&quot;:&quot;FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at e.&lt;anonymous&gt; (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:1136062)\n    at https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40761\n    at Object.next (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40866)\n    at a (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:39604)&quot;,&quot;code&quot;:&quot;messaging/permission-blocked&quot;}],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;err FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;},{&quot;timestamp&quot;:1613496855.403,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;Content is cached for offline use.&quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;Content is cached for offline use.&quot;},{&quot;timestamp&quot;:1613496855.521,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/cities&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;}],&quot;request&quot;:{&quot;url&quot;:&quot;https://co-tc-shopper-web-dev.serempre.dev/&quot;,&quot;headers&quot;:{&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36&quot;}}}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/19/store/?sentry_key=53c56c5167924f9ca8cac12d2e47f8f0&amp;sentry_version=7</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://sentry.serempre.com/api/19/store/?sentry_key=53c56c5167924f9ca8cac12d2e47f8f0&amp;sentry_version=7" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;exception&quot;:{&quot;values&quot;:[{&quot;type&quot;:&quot;SyntaxError&quot;,&quot;value&quot;:&quot;Identifier &apos;originalPrompt&apos; has already been declared&quot;,&quot;stacktrace&quot;:{&quot;frames&quot;:[{&quot;colno&quot;:1,&quot;filename&quot;:&quot;chrome-extension://mbopgmdnpcbohhpnfglgohlbhfongabi/sideex/prompt.js&quot;,&quot;function&quot;:&quot;?&quot;,&quot;in_app&quot;:true,&quot;lineno&quot;:1}]},&quot;mechanism&quot;:{&quot;handled&quot;:false,&quot;type&quot;:&quot;onerror&quot;}}]},&quot;platform&quot;:&quot;javascript&quot;,&quot;sdk&quot;:{&quot;name&quot;:&quot;sentry.javascript.browser&quot;,&quot;packages&quot;:[{&quot;name&quot;:&quot;npm:@sentry/browser&quot;,&quot;version&quot;:&quot;5.25.0&quot;}],&quot;version&quot;:&quot;5.25.0&quot;,&quot;integrations&quot;:[&quot;InboundFilters&quot;,&quot;FunctionToString&quot;,&quot;TryCatch&quot;,&quot;Breadcrumbs&quot;,&quot;GlobalHandlers&quot;,&quot;LinkedErrors&quot;,&quot;UserAgent&quot;]},&quot;event_id&quot;:&quot;f0c80641451541e185563b3cadf36a2b&quot;,&quot;timestamp&quot;:1613496948.371,&quot;environment&quot;:&quot;production&quot;,&quot;release&quot;:&quot;2.2.0&quot;,&quot;breadcrumbs&quot;:[{&quot;timestamp&quot;:1613496850.13,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;err&quot;,{&quot;message&quot;:&quot;Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;,&quot;name&quot;:&quot;FirebaseError&quot;,&quot;stack&quot;:&quot;FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at e.&lt;anonymous&gt; (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:1136062)\n    at https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40761\n    at Object.next (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40866)\n    at a (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:39604)&quot;,&quot;code&quot;:&quot;messaging/permission-blocked&quot;}],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;err FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;},{&quot;timestamp&quot;:1613496850.166,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;err&quot;,{&quot;message&quot;:&quot;Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;,&quot;name&quot;:&quot;FirebaseError&quot;,&quot;stack&quot;:&quot;FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at e.&lt;anonymous&gt; (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:1136062)\n    at https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40761\n    at Object.next (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40866)\n    at a (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:39604)&quot;,&quot;code&quot;:&quot;messaging/permission-blocked&quot;}],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;err FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;},{&quot;timestamp&quot;:1613496850.32,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/categories&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.339,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=4.574690100000&amp;lng=-74.240904200000&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.373,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/popular/products&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.419,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;Obsolete Tags:&quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;Obsolete Tags:&quot;},{&quot;timestamp&quot;:1613496850.457,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/promos&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496850.73,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;\nIt looks like you&apos;re using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace &lt;PACKAGE&gt; with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require(&apos;firebase/app&apos;);\nrequire(&apos;firebase/&lt;PACKAGE&gt;&apos;);\n\nES Modules:\nimport firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n\nTypescript:\nimport * as firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n&quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;warning&quot;,&quot;message&quot;:&quot;\nIt looks like you&apos;re using the development build of the Firebase JS SDK.\nWhen deploying Firebase apps to production, it is advisable to only import\nthe individual SDK components you intend to use.\n\nFor the module builds, these are available in the following manner\n(replace &lt;PACKAGE&gt; with the name of a component - i.e. auth, database, etc):\n\nCommonJS Modules:\nconst firebase = require(&apos;firebase/app&apos;);\nrequire(&apos;firebase/&lt;PACKAGE&gt;&apos;);\n\nES Modules:\nimport firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n\nTypescript:\nimport * as firebase from &apos;firebase/app&apos;;\nimport &apos;firebase/&lt;PACKAGE&gt;&apos;;\n&quot;},{&quot;timestamp&quot;:1613496851.462,&quot;category&quot;:&quot;ui.click&quot;,&quot;message&quot;:&quot;a.sc-kizDGL.hNhxES.StyledTab &gt; img[alt=\&quot;Perfil\&quot;]&quot;},{&quot;timestamp&quot;:1613496851.463,&quot;category&quot;:&quot;navigation&quot;,&quot;data&quot;:{&quot;from&quot;:&quot;/consumidor/tiendas/tienda/249&quot;,&quot;to&quot;:&quot;/consumidor/cuenta&quot;}},{&quot;timestamp&quot;:1613496851.836,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/discount/terms&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496853.177,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;[2021-02-16T17:34:13.177Z]  @firebase/database:&quot;,&quot;FIREBASE WARNING: Using an unspecified index. Your data will be downloaded and filtered on the client. Consider adding \&quot;.indexOn\&quot;: \&quot;consumer\&quot; at /channels to your security rules for better performance. &quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;warning&quot;,&quot;message&quot;:&quot;[2021-02-16T17:34:13.177Z]  @firebase/database: FIREBASE WARNING: Using an unspecified index. Your data will be downloaded and filtered on the client. Consider adding \&quot;.indexOn\&quot;: \&quot;consumer\&quot; at /channels to your security rules for better performance. &quot;},{&quot;timestamp&quot;:1613496853.69,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496853.83,&quot;category&quot;:&quot;ui.click&quot;,&quot;message&quot;:&quot;div.sc-gVtpNI.tezoW.StyledNavigationPanelLink.transition.duration-300.ease-in-out.space-x-3.lg:space-x-4&quot;},{&quot;timestamp&quot;:1613496854.927,&quot;category&quot;:&quot;ui.click&quot;,&quot;message&quot;:&quot;button.sc-jSFkmK.hRxJjc.sc-iuInmz.gEFVph.StyledDialogButton.StyledButton.StyledButtonprimary.transition.duration-300.ease-in-out[type=\&quot;button\&quot;]&quot;},{&quot;timestamp&quot;:1613496855.193,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/logout&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496855.2,&quot;category&quot;:&quot;navigation&quot;,&quot;data&quot;:{&quot;from&quot;:&quot;/consumidor/cuenta&quot;,&quot;to&quot;:&quot;/&quot;}},{&quot;timestamp&quot;:1613496855.315,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;err&quot;,{&quot;message&quot;:&quot;Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;,&quot;name&quot;:&quot;FirebaseError&quot;,&quot;stack&quot;:&quot;FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at e.&lt;anonymous&gt; (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:1136062)\n    at https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40761\n    at Object.next (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:40866)\n    at a (https://co-tc-shopper-web-dev.serempre.dev/static/js/2.a2027b22.chunk.js:2:39604)&quot;,&quot;code&quot;:&quot;messaging/permission-blocked&quot;}],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;err FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).&quot;},{&quot;timestamp&quot;:1613496855.403,&quot;category&quot;:&quot;console&quot;,&quot;data&quot;:{&quot;arguments&quot;:[&quot;Content is cached for offline use.&quot;],&quot;logger&quot;:&quot;console&quot;},&quot;level&quot;:&quot;log&quot;,&quot;message&quot;:&quot;Content is cached for offline use.&quot;},{&quot;timestamp&quot;:1613496855.521,&quot;category&quot;:&quot;xhr&quot;,&quot;data&quot;:{&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;https://co-tc-shopper-api-dev.serempre.dev/api/v3/cities&quot;,&quot;status_code&quot;:200},&quot;type&quot;:&quot;http&quot;},{&quot;timestamp&quot;:1613496948.368,&quot;category&quot;:&quot;sentry.event&quot;,&quot;event_id&quot;:&quot;c3b5127776244e65ba811a2b39d0cb74&quot;,&quot;message&quot;:&quot;SyntaxError: Identifier &apos;originalPrompt&apos; has already been declared&quot;}],&quot;request&quot;:{&quot;url&quot;:&quot;https://co-tc-shopper-web-dev.serempre.dev/&quot;,&quot;headers&quot;:{&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36&quot;}}}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/19/store/?sentry_key=53c56c5167924f9ca8cac12d2e47f8f0&amp;sentry_version=7</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="celular" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="login" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="celular" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">777335811</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">celular</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="otp" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="otp" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="codigo" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">12345</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">codigo</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/login/otp</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/address" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/address</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/history/orders?page=1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="page" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">page</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/history/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/profile" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/profile</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/address/default" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/address/default</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/promos?lat=4.5746901&amp;lng=-74.2409042" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-74.2409042</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">4.5746901</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/promos</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shops?lat=4.5746901&amp;lng=-74.2409042&amp;orderBy=distance" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-74.2409042</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="orderBy" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">orderBy</stringProp>
+                  <stringProp name="Argument.value">distance</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">4.5746901</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shops</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shops/favorite?lat=4.5746901&amp;lng=-74.2409042" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-74.2409042</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">4.5746901</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shops/favorite</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="tienda" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/categories" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/categories</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/popular/products" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/popular/products</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=4.574690100000&amp;lng=-74.240904200000" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-74.240904200000</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">4.574690100000</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/promos" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/promos</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="categoria" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/products?category[]=abarrotes" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="category[]" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.name">category[]</stringProp>
+                  <stringProp name="Argument.value">abarrotes</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/products</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/products?category[]=abarrotes" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="category[]" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.name">category[]</stringProp>
+                  <stringProp name="Argument.value">abarrotes</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/products</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=1&amp;lng=-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="productos" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/address" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/address</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=1&amp;lng=-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/profile" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/profile</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/address/default" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/address/default</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="pago" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/address" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/address</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/codes" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/codes</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/discount" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/discount</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=1&amp;lng=-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=1&amp;lng=-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=1&amp;lng=-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249?lat=1&amp;lng=-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="lng" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lng</stringProp>
+                  <stringProp name="Argument.value">-1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="lat" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">lat</stringProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/address/default" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/address/default</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="descuento" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/shop/249/7/order" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;items&quot;:[{&quot;id&quot;:&quot;224&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;290&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;159&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;179&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;123&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;144&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;171&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;2001&quot;,&quot;quantity&quot;:1},{&quot;id&quot;:&quot;186&quot;,&quot;quantity&quot;:1}],&quot;payment&quot;:&quot;cash&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/shop/249/374/order</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://co-tc-shopper-api-dev.serempre.dev/api/v3/consumer/orders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${BASE_URL_2}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">api/v3/consumer/orders</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="td" elementType="Header">
+                  <stringProp name="Header.name">td</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiZTBlODJjZjg4ODY1NjkzNzRiODU3ZTE0NDMwMjFmYmYyYzYzNTA2OWEzY2FlYzIzMzc1Y2U1YmEzNGUyZDFhN2JhZmE3NzM3ZGE2ZGNjNWYiLCJpYXQiOjE2MTM0OTcwMTAsIm5iZiI6MTYxMzQ5NzAxMCwiZXhwIjoxNjQ1MDMzMDEwLCJzdWIiOiIyNyIsInNjb3BlcyI6WyJjb25zdW1lciJdfQ.iCg3DX_88jasSSDhQlF5OiqxccZ_6PO6kKlX02BzKEInyG0e0uJEqBHVbvQc_h3DC43cFwBk-mM3hwPzvlMJZOAQoU0xbaMjVb_SGPoFhq9yalaxP0V1Fc4SsP1OaAsYuQQyK8X2mkd5mJ4o8NkLf3fNR90C7AEEGeM5cgxWSMOEVikjzmnwmVYUIVpF5qGxXUBhfdzviiO8ARhaBnKePJwaeE_W3FOnyK7ns74r-RBu_4NaBYji9TGMNE7vVxk73jAlAPvfY3lPr1u4YL0h5I-rho2zz5n1l-RfWwYiYeX8kjLdO1TIjVxZWZRXlVywnPJYVETfD1hGYl-1c2VG44YgsnQzLigSbfbwhTda4VNAEKZN7t3jjsPE_8RQLHqC5OfBD7tVPplYr66kaTBflK8lwMDPOPUY4lg0oVyOZbkc9ErRAZLv0sUB3FIPrAX6N2xTHDFP6FJ_OnWORqBDFxn2qOBQxR7gbiX1q94UlWC8oyixnyHDH7X6RbOWfSCKEUmuu8JPV7VPjsO9CBJ8DafcfTOvbgFnjpwDry-qHV84xdeNoOfy6B2Qg0ZOq0EoS1Gz3bbeJkydjg6GR8gBQJ5K4vGvdxrfcqhX9EVsJ1I89wIHhIKecHnbkpFIgrTds-crqFbMT7b1wIRveI_B2B9D8cOKt6Nr5T4ZJ7t5l8M</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="View Results in Table" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

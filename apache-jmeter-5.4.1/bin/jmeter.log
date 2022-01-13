@@ -1,0 +1,55 @@
+2022-01-07 19:12:09,492 INFO o.a.j.u.JMeterUtils: Setting Locale to es_CO
+2022-01-07 19:12:09,502 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_CO', using 'es'
+2022-01-07 19:12:09,503 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-01-07 19:12:09,504 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: Version 5.4.1
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: java.version=1.8.0_301
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: os.name=Windows 10
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: os.arch=amd64
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: os.version=10.0
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: java.awt.headless=null
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: Max memory     =3784310784
+2022-01-07 19:12:09,510 INFO o.a.j.JMeter: Available Processors =8
+2022-01-07 19:12:09,516 INFO o.a.j.JMeter: Default Locale=español (Colombia)
+2022-01-07 19:12:09,516 INFO o.a.j.JMeter: JMeter  Locale=español (Colombia)
+2022-01-07 19:12:09,516 INFO o.a.j.JMeter: JMeterHome=C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1
+2022-01-07 19:12:09,516 INFO o.a.j.JMeter: user.dir  =C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin
+2022-01-07 19:12:09,516 INFO o.a.j.JMeter: PWD       =C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin
+2022-01-07 19:12:09,517 INFO o.a.j.JMeter: IP: 192.168.1.15 Name: LAPTOP-CFNFQMU8 FullName: LAPTOP-CFNFQMU8
+2022-01-07 19:12:09,576 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2022-01-07 19:12:09,961 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-01-07 19:12:11,500 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-98967dbaee0d8f924a84b18c9605d915-gui
+2022-01-07 19:12:13,096 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-perfmon=2.1, jpgc-plugins-manager=1.6, jpgc-tst=2.5, jpgc-xml=0.1, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1, jpgc-standard=2.0]
+2022-01-07 19:12:13,097 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-casutg, jpgc-plugins-manager]
+2022-01-07 19:12:20,713 INFO o.a.j.g.JMeterUIDefaults: Applying font scale factor: 1.1
+2022-01-07 19:12:23,388 INFO o.a.j.g.JMeterUIDefaults: Applying font scale factor: 1.21
+2022-01-07 19:12:27,862 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2022-01-07 19:12:54,437 INFO o.a.j.g.JMeterUIDefaults: Applying font scale factor: 1.3310001
+2022-01-07 19:15:20,151 INFO o.a.j.g.JMeterUIDefaults: Applying font scale factor: 1.4641001
+2022-01-07 19:18:30,697 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin\templates\templates.xml
+2022-01-07 19:18:39,881 INFO o.a.j.g.a.Load: Loading file: C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin\templates\recording-with-think-time.jmx
+2022-01-07 19:18:40,032 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-01-07 19:18:40,040 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-01-07 19:18:40,041 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-01-07 19:18:40,043 INFO o.a.j.s.SaveService: Loading file: C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin\templates\recording-with-think-time.jmx
+2022-01-07 19:18:40,158 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-01-07 19:18:40,708 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-01-07 19:18:40,709 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-01-07 19:18:40,746 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 19:18:40,746 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 19:18:40,746 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 19:18:40,746 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 19:18:40,746 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-01-07 19:18:40,746 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-01-07 19:18:40,802 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-01-07 19:18:40,803 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-01-07 19:18:40,803 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-01-07 19:18:40,803 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-01-07 19:36:10,816 INFO o.a.j.s.FileServer: Default base='C:\Users\505GT\Documents\JMETER\apache-jmeter-5.4.1\bin'
+2022-01-07 19:36:10,819 INFO o.a.j.g.a.Load: Loading file: C:\Users\505GT\Documents\green\green\brilla\brilla.jmx
+2022-01-07 19:36:10,819 INFO o.a.j.s.FileServer: Set new base='C:\Users\505GT\Documents\green\green\brilla'
+2022-01-07 19:36:10,819 INFO o.a.j.s.SaveService: Loading file: C:\Users\505GT\Documents\green\green\brilla\brilla.jmx
+2022-01-07 19:36:11,235 INFO o.a.j.s.FileServer: Set new base='C:\Users\505GT\Documents\green\green\brilla'

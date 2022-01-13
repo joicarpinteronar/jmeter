@@ -1,0 +1,50 @@
+--bd-Ec02-001-navega--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\bd-Ec02-001-navega.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\bd-Ec02-001-navega-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\bd-Ec02-001-navega--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\bd-Ec02-001-navega-25112020
+
+
+--bd-Ec02-002-navega--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\bd-Ec02-002-navega.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\bd-Ec02-002-navega-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\bd-Ec02-002-navega--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\bd-Ec02-002-navega-25112020
+
+
+--bd-Ec02-003-consultabd--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\bd-Ec02-003-consultabd.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\bd-Ec02-003-consultabd-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\bd-Ec02-003-consultabd--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\bd-Ec02-003-consultabd-25112020
+
+
+--EC-005-001-consultabd--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\Bd-EC05-001-consultabd.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\Bd-EC05-001-consultabd-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\Bd-EC05-001-consultabd--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\Bd-EC05-001-consultabd-25112020
+
+
+--Bd-EC05-002-navegafull--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\Bd-EC05-002-navegafull.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\Bd-EC05-002-navegafull-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\Bd-EC05-002-navegafull--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\Bd-EC05-002-navegafull-25112020
+
+
+--Bd-EC12-001--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\Bd-EC12-001.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\Bd-EC12-001-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\Bd-EC12-001--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\Bd-EC12-001-25112020
+
+
+--CONSULTA--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\CONSULTA.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\CONSULTA.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo\Resultados\CONSULTA.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo\Resultados\CONSULTA-23112020
+
+
+--Navegar2--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\navegar2.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\navegar2-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\navegar2--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\navegar2-25112020
+
+
+--recarga--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\recarga.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\recarga-27112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\recarga--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\recarga-25112020
+
+
+--recarga-ws-min.jmx--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\recarga-ws-min.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\recarga-ws-min-25112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\recarga-ws-min--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\recarga-ws-min.jmx-25112020
+
+
+--aumento--
+jmeter.bat -n -t C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Insumos\aumento-ws-max.jmx -j C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-27-11-2020\Resultados\aumento-ws-max-25112020.log -l C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\aumento-ws-max--25112020.log -e -o C:\Users\katiusca.saldarriaga\Desktop\Pruebas_A2censo-25-11-2020\Resultados\aumento-ws-max-25112020
+
+
+
+
+
+
+
+

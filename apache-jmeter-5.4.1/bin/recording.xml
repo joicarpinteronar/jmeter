@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+<httpSample t="863" it="0" lt="863" ct="457" ts="1613104950394" s="true" lb="-1" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="236" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Alt-Svc: clear
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 12 Feb 2021 04:42:31 GMT
+Strict-Transport-Security: max-age=15768000
+Via: 1.1 google
+X-Frame-Options: DENY
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: Fri, 12 Feb 2021 04:42:30 GMT
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Encoding: gzip
+Host: incoming.telemetry.mozilla.org
+Content-Type: application/json; charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+Content-Length: 25719
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;
+�}�s�:�習���z��ɵ$&#x7f;v��&#x1d;&#x2;N7�&#x4;��tn��)ʀ�x&#x1a;0c�t�N����H�1`LHw0��Sw&#x1a;ǖ����Ηd�&#x7f;�&apos;�&#xb;~��|�&#x7;��w��&#x4;���n1�[5�9vM�ܮ�4:�MF&#x6;Ӹ~��6����I&#x10;Λ~�5P���Fk�&#xe;4��N�3�&#x1a;��P�G1&#x14;&lt;&#x7f;��;�&#x17;�i0&#x16;/�����&#x1f;�&#x1f;����e��|�͚��+�e0��&amp;�^�j:�)5�ݹ?âWA���o���m�B� pk&#x12;ċ���y��&#x13;�O�&#x8;�\�&#x7f;&#x6;ө&#xf;��dr&#x1f;F����&#x16;�pV&#x1f;&#x5;&#x12;���k��i��&#x7f;��s&gt;��&#x11;�r?��ߡ&quot;�y&#x1a;�&#x13;�&#x17;`&#x12;ݍ��bʯ�&#x4;tp��I�O�0�&#x0;��&#x18;�&#x18;�K�(9&#x7f;O�;9&#x14;�m&#xd;nB��&#x17;���&#x14;��&#x16;��&gt;ᑺ�&#xe;�_8�f����&#x11;��c�#A�&apos;��&#x1;�&quot;����;�&#x8;&#x4;&#x4;j�&#xf;�8�A�&#x8;�֝�&#x1d;
+�Lj&quot;�&#x18;I��q&#x12;F�5&#xf;��͌�&#x7;P+5&#x8;S&lt;�&#x7;�͟��6&#x0;�&#x7f;&#x5;�&#x10;]��&#x6;r��[X܄^&#x52f;[C&#x5;t8R�&#xd;h����}����0L�$�&#x17;C&#x7f;2	�qZ��Ǝ&#x2;\��v��]�ͣ�w&#x1d;M��&#xf;�����ɇ�u��&amp;�?&#xd;�&#x14;#c&#x0;a&apos;&#x1c;8�O�K�G&#x10;�:��ë`&#x1e;ď�)s�ͪ�O0&#x7f;&#x10;��lL[s��h�&#x10;�j�@߂�?�,g#&#x1e;u�&#x1b;�|��&quot;��#&#xc;�&#x4;8�r�����G�$�Ǐ�UU�&#x1c;��A&#x1c;��Ь?�|N8�g&#x12;�a��r�&#x11;LdU���A����я�BbhT�LgG�|�:��&#x6;&#x5;}��&apos;&gt;&#x8;�_�&amp;#8�p&#xc;�q1�&#x16;&gt;�&#x14;��?�#qs&#x12;�.�!�i���&#x17;a&lt;\D&#x1;�3y&#x1e;�d~�C(&#x11;&#x7;&#x13;.�&#x17;xw&#x14;�_c&#x1e;]���� ��&#x5;P&#x16;K)r&#xe;&#x13;&#x7f;&#x4;&#x7f;.�9ZX&#x1e;&#xb;�&#xb;&gt;&#x1f;&#x2;�CyU�&#x14;���&#x1a;&amp;i���C&#x1d;�A�P��[&#x383;&#x7f;-�&#x10;�	&#x1c;�����W1��h�&#x4;&#x1b;.�@&#x16;&#x1b;�A~�&#xd;&#x7f;&gt;A�O0釳p&#x2;B&#xb;fo&#x2;blƓ�&#x19;*x
+�p�5&#xc;&apos;�&#x4;I&quot;H/Z���i�U&#xe;Mq&#x1f;�s&#x10;�	�X��j��q&#x3;=�&#x4;6��q&quot;��&amp;}o&#x19;\&#x4;8�|!2/&#x16;�v��9&#x0;&#x1c;.�9�aw��B�&#x7;�k�GIp�&#x1a;�Ǘ�$A}�L���#?�H���&lt;��&#x6;�b&#x18;�G�&#x1f;Mj�c�U���2p&#x13;H7?&#x12;&#x1a;&#x4;�ks�&#x15;~k�\39Z�XN�(&#x1;��&#x1f;�&#x18;�!��h��&#x4;�c&#xe;c&#xf;D��rο-@7�	*����q�g0&#x4;�q��A�YiG���&amp;\&amp;��r�\&#x4;��.�@0�b�b�Zi���S�3���&#x1a;(Uh&#x7f;ճ��Z0_,&#x13;Y�`����&quot;‎&#xf;�#&#x1e;?&#x381;m�&#x16;�&lt;P
+&#x19;�,&#x6;#�4&#x16;�j�`�&#x12;4�i�]���8֠s���K&#x1b;/���&#x2;&#x16;q�k�L&#x16;��%�K,�&#x18;p�eZB��m¥���f�5T��.^#P�6���RԶ&#xc;�Di�hP�&#x19;&#x14;�u�&amp;.&#x19;^Z���K&#x1b;�:&amp;&#x16;�X�c&#x3;U&#x1c;�e�x&#xd;��4&#x14;�DSU��Z�kJ	^�P	�&#xd;C\�&#x16;M��(�&#x1;hH&#x10;��wu��k�S�el,chL\��Z�wD&#x19;&amp;�;T\�v&#x1d;&amp;�E[�.�eyC�+˘&#x2;&#xf;b&#x3;#Oܷ�5��m]\c&#x19;&#x3;-#�&#x16;��Y&#xd;�&#x2;?�&#xf;!��D�C&#x4;&#x1e;G�&#x11;}�&#x1d;Q&apos;���:������&#x8;&#x5f6;�&#x16;&#x18;���œ�a�&#x5;����O�!X&#x10;�&#x18;f&gt;J�&apos;6�2B6�3�&#x1d;v�����&lt;&quot;�&#x1;�&#x1d;&#x19;v&#x8;Z]�&#xd;&#x18;�4��{�q���wz���иw&#x14;n��u]��6�ݐbP�v���fS&#x16;}�sx&amp;�&#x1b;Hҹ4�&lt;�$�&#xb;Զ&#x7ff;C]J�b��&#x0;f�C��Ĝi�5���m��Ơ�&#x1f;^�&#x7f;&#x1b;��7�+��&#x12;�t��&#xc;@��&lt;�&gt;&#x4;�&#x5;�&#x19;&#x0;&#x6;
+GR����#&#x1a;��&#x1f;`w�ӥ��8&#x13;p&#x10;���br3�!d�%���&#x1d;&#x1c;&amp;�qd)&#x18;L&#xd;{�1��&#xe;&#x3;e�aW����&#x12;�. ��Z&#x2;!Z�&#x7;�S=�E%,&#x18;v]&#x16;�mqӰ��D� ���/o�&#x1f;�&#x1;t`H&#xf;�&#x2;u�Z&#x1f;�F&#xf;tQ&#x14;�(�3AK&amp;���D�&#x12;&#x1d;&#x11;�D�I�&#xf;�?���&#x4;�&#x10;�_���&gt;P9HLv&#xc;{&#xb;��&amp;&#x1a;fЪ��`�Ӻ�&#xf;Z�����&#x16;�&gt;�&#x11;�#���cdm��.��&#x7f;Y9�I��&#x15;�&#x5f5;=L��&gt;F�Ǌ��Db3$3Q�L���&#x1a;&#x17;&#x11;�E)�^�����+8&#x7f;&#x13;�&amp;M-1&#x19;m&#x1;_O&apos;��Aű73�_Q��i��v&#x7;���@D�`�?s��mz���Z�mH&#xe;)3LC��.�$L�մ&#x14;X)B@�ɗ�%�e�ZL[��6�/&#x15;*&#x1b;�7�,a&#x11;T�k=�Я&#x7fd;fβ�&#x1c;��&#x1;&#x13;&#x0;�uf^k�֭&#x7f;:x��Ӊ���������Q&#xb;�t&#x6;E��&#x7;��ٚn��&amp;�j&#xe;������z{د&#xf;^�kHJ_����F-&#x1;J�1�Q�.E�d&#x1a;G�&#x4;4��b&#x1e;@-��R��kwx�&#xe;n]�3&lt;t�&#x1;ϙk��:&gt;&amp;��R�R�&#x17;�8�Q&#x18;�&#x14;0
+��[&#xd;�;�)�6�T#�&lt;i��rr&#x12;M�P�Dj�Ts&#x18;��eRqP�&#x1f;�&#x1;5�&#x1f;&amp;ԥ���N=�fnT&#x1c;Y&#x1;a�v&#x558;��U�j�(֝����d�&#x3;�&#x11;1��*&#x15;%�����4Rs%��l&#x5;ǽ�&#x2;3����^�&#x10;&#x1;������	�m��)��,��fN��V�Q7�Zt��Q!D&#x5;�Aw&#x0;S�����&#x1c;����&#xe;��zS�܁��I�Ç���&#x3;&#x0;O&#x19;&#x17;�Е0v��a�(d&#x1f;&#x7;��&#x4;��xÖ�ݸ;P�k�&lt;E�&#x1;&#x11;��S*������O7�W�N����&#x1d;շZ&#x1f;����z��}�&#x7f;:��L+oܑ�#Ig��m7��!ot����;P&#xd;&#x12;s_��iM5�N�&#x15;&#x4;�����&#xf;N$+G��1Ŗ�T�LZ��&#x8;2&#xc;5��&#xc;�M�0z�~�7@�3��&#xf;��7�7(��d&#x1b;��I��9�5_���LH#�r�ӻ&#x19;&#xc;��8e����v��-Db&#x1a;�~S�Xv�N$�Pt�H4�L�m!��&#x1b;hqiRc�@�&#x8;�*9I��Ap�&#x3;U&#x6;1�9LP[
+�XS^�&amp;-c&amp;Mb]�&#xb;]:VT�m&#x11;&#x0;��35��ŤZ2Y)�&#x1a;�z��&#x1a;`�&#x1c;�hd�?��A&#x12;&#x10;i�&#xb;M��y�t&#xf;4)���FlA/C�X��#�&#xc;E,\�AZY�R�rC�YnI:9k&#x1e;�)�eIr&#x19;�\�&quot;&#x17;�&#x16;�P&#x16;�r7�j^���&#xd;��{uϻ���C�S�l��mb�mZ�&quot;��&#x16;(�t�{.؁�¡�O�h&#x13;fP�{����t&#x12;��FW�����m�\Å��&#x6;�~/�_��u/�����N�[��+$�7��&#xf;�[&#x1c;�Z#��Ņ��+�L��a��e���e���&#x7fc;���۸&#x11;2�����}�|�&#x17;����&#x16;�&amp;�d�d&gt;��7&#x1c;�v���U�Q�!&#xc;�U�Axw+C[&#x1a;&#x1c;�4&#x7;&#x14;�u�m�:(!�{���j&#x1c;�E��Q�5���[���N��y�&#x1a;��@ľ��Ϥ�&quot;%�!�)��N��%�&#x8;��x�&#x14;M�|DV&#x1e;t�&#x1d;&#x18;��v��Iu�H��۾��Յ-�v�_�)��HC&#x0;Vf4�x�Z}o���W7���r&#xe;G�i�&#x6;�f�Z&#x18;խ·�&#x11;��S�&#x13;&#x10;�P���|7�&#x8;�&#x7f;&#xb;&#xd;���ׅ��2ׅ_&#x1;$I&#x12;e�;���+���Y&#x0;*�&#x4;&#x9a;jJ��&#x1a;t�Q��I���?���&#x14;�&#xf;�&#x1c;�=��%6�9&#x10;�u��&#xe;^1��c�C&#x10;eH�f�b\�6 	%&apos;��W&#xe;�[�z�����AeV�+)E�}���j�X�J@&#x8;&#x8;=�&#x7f;���}��{&#x0;�Lƻ���&#x8;�U&#x1f;X:��k�&#x2;�M9,1�4i&#x8;�Ж��
+&amp;��I��o��h&#x17;�&#x13;���|s�@�z�}Yo|&#x12;�&#x1;&#xe;�&#x18;�ñmq��X��FŤ�&#x10;���&#x5;F�����v��.�&#x1a;��Gaj^v&#xf;&#xc;&#x18;��&#xb;h�A�&#x14;��C�\կ[��&#xd;{»�P`e��&#xb;&#x3;��0K�:0&#x5;?���Gn�&#x6;��c�	�ݱ��J�&#x17;4H��^y&#x2;��&#x1c;Xz�&#x7f;�o+c��oj��&#x7be;��qަ����&#x7f;�&#x16;2�&#x1d;�)$��4S��&gt;��&#xb;�M8*���Ol&amp;&#x17;&#x11;��4�;Ğ�zd�@�L�=2Y&#x13;B�Y	�&#x1b;O-Z�}�&#x5;��=���qPo��_Y��&#x16;�ހ&gt;c���&#xf;��i�0W&#x1b;�^&#x7;��&#x0;
+y1�V�g�)&#x0;����b&#x1c;�a4�Q#�N�E�+&#x7;��&#xb;�&#xc;�&#xf;&#x15;�hL�&#x1f;U�!��Q}��e\��i&#x6;���W9&#xe;�%N�(���۩P&#x4;����(U�&#x8;����
+ԋ�&lt;O�&#x16;a��&#x7;&#xf;�U&#x13;�o 8����P�mh@�N/��&#x13;�8��?a&#x2;_&#x5;Uӥ&#x17;�=�.~`Q�Er&quot;C��q�gճ�K��&#xb;o&#x7;s&gt;~�t-_˕X�ð�&#x13;��u`�&#x17;�1_&#x2;f�����?�˪�&#x380;&#x7f;K�&#x11;}&#x2;8&#x6;&#x20ce;0�U�%\�&#x1f;�`���&lt;��7�&#x15;&#x3;&#x11;_�&#x6;S��Z �|�%Hp&#x1a;7���j��&#x16;?��&#x16;��jI{&#xb;��e��/&#x15;���5��oU&#x7;&#x5;&#x16;&#xb;p&lt;�y�Ҙ&#x6;���zc:�NO&#x0;F&#x17;C$U�&#x2;\�&#xf;Q��&#x4;`x�Q0�z�J��&#x1a;�X4&#xd;f�5�&#x17;�1^�&quot;O&lt;���_&#x7f;��U&#x15;���q�j�^����L�&#xf;��gU&#xb;�&#xc;�&#x0;�u�p�����v鏿&lt;D��D&#x1e;�1�&gt;V���Z�d��f�C�&lt;�BӍ���:�o&#x0;���p9&#x1d;�� �Rƣ?�\a�&#x1c;���c�K�b5�jR�D(��M�5&#x1f;�S�������G�J��S5&#x8;`�+&#x7f;&#x16;L��Z�RF�&#x12;��&#x13;&#x18;&#x14;�&#x11;T� �a������-d&#xc;������&#xc;&#x13;^�����n��kU��&#x2;$�K&#x3;���Su&#x1c;&#x16;��b1�ɫ_�ΡYF�	8&#x1d;+@�(\�r?q&#x5;褜��x&#x0;�؟��2�	�b&#x18;&#xd;|%&#x4;�&#x12;&#xc;���jQ��7��&#x1b;�,�&gt;�y���T&#x16;��o&apos;a�&#x0;�&#x1f;P�?&#xd;�&#xf;��%&gt;(y�&#x13;z&#x1d;�OcT��)�ʏ`�y��]&amp;S����Ջ��?����&#xc;�$�Z�(,m~&#x7f;&quot;T���QP&#x6;aն��6-&#x19;�&#x14;�ă�r:h&#x4;Ü&#xe;&#x1c;`��&#x1;#9&#x7;ǫ�O�e�^|&#x1e;�&#x18;�&#x13;B%��?):&#x1;�S&quot;�	(�&#x13;�R�~&#x4;��IPCB9&#x19;����H��ۧ@�꩐[b?�u���9&#x1d;&lt;8}O&#x2;M6V&apos;&#x3;�D�&#x14;�&gt;]�~�&#x4;�S��H&quot;9&#x1d;;�&#x14;�m^��&#x4;�&#x13;�&#xc;$��&#x0;q&#x12;V��-&#x1c;��nŪ�|��w�dK�&apos;aBW=Od��4&#x80;U���&#xf;Fp�C��ÓX֗_8�Ҟ�&#xd;D&apos;��/��̂e���||�F����&#x16;E�X�&#x4;�{�&#x14;9�O&lt;%���[7
+��P�!sN&#x2;��Q:&#xb;��z��䞿�&#x8;��&#x14;��S��%�^&#x14;̓�&#x1e;��]e&#xb;��V&amp;�a�
+���#^.&#x16;a����$Y�a�&#x1c;m&#x3;+;��X?Sl;u&#x5;����&#x6;&#x15;&#x8;�&#x1c;9Y�
+��D`�nzC&#x5;r-���@i����F�N&#xe;M�i�C�&#xb;PJ�]&lt;&#x1;-;��S���()�{�)�˷���vzT�:2�P�^���)�,�0�D�m}��&#x4;~&#x14;�n�尩&lt;h[%tP�������?&#x13;/���Y&#x7;�ԡ�&quot;ej9��#�񜾟����&#x10;&#x17;ɩaZ&#xc;�U�&#x7f;)�
+`s٧W9y&apos;&#x1;&#x70e;&amp;|r!&#x1f;&#xf;e&#x1e;�XT_Tl�&#x18;L&apos;2{��B�x��-�~yUB`&#xd;_خ,�Y���$��S�f�&#x1c;�vc_&#x1f;�$�O�(����]y!Ub��&#x14;Jo��&#xe;�&#x12;��&#x11;&#x13;�&#x14;*���8o�&lt;�g�X&#x8;�Ճ¢&#xf;�e&#x1;{~t&#x1b;���e�&#xe;#���ڭz{ؼ&#x11;&#x7;&#x7f;&#x16;��(cR�
+�tS��,W&quot;E��U�;�n�9K1=&#xf;�&#x12;�&#x7;�&#x1b;�x�U(�^k�gL$�^ǵ5{&#x1c;�&#x86;��G,�&#x7;&#x14;Y&#x1b;�&#x8;&amp;�6d&#x2;GĮ˼w2c&#x11;����&#x1f;��&quot;��L Ke�!]�U9�T~7��Nj*]��3%&#x7f;�lu�T_�:i|þY&#x1d;_���w[&#x7f;Mv0�������B�:�Y&#x11;&#x19;�%��́���&#x0;��d�]�&#x19;&#x10;��w�L���&#x14;�&#x1b;$j�L�%i$H�&#x12;Z�Y�Xd&#x8;&amp;&#x7f;T�R�&apos;RJ&#x1d;-� �ɽ&#x3;y&apos;�dW�#�:0v����R�h�o&#x16;���4ۈ�a��&#xb;S&gt;&#x8b;L2��&#x0;�酼F&#x1f;T�~`{&#xe;���&#x16;�u{X��jn)f��G��U���,o�&#x1e;&#x16;7�;�Gd�Q�	��eR-&quot;��&#xd;��d��&#x11;&#x7;�_ݴۯN�c&#x1b;����&gt;3��&#x19;`�&apos;�&#x13;[�&#x1a;fi�aS�&#x16;�&#x5;���1$ױw���L��f�2�x���_�~��&#x1;!�&amp;p��ėi(�� ).��%*q��&amp;�J����&#x11;y&#x7;�{��&#xd;����2�-&#xd;�&#x1b;&quot;�3N2!qt�}&#x14;&#x15;�y͖s�Js+h*&apos;,�J&#x1c;&#x11;]7v�a�ٻ�4^Ȯ$�]��S��;�)�.e�n&quot;�v���*��FJh��\��4���i�l�2&#xf;� &#x6;�&#x1;�G�#���&#x8;���BHTA&apos;M�S��@�qH�5y�&#x12;9�i�&#x0;]!�
+&#x1b;5�s�;�,[�b�|����������� �mk�q�}�p &#x17;����e�.�T&#x12;0�-��&lt;��L�O�&apos;&#x14;�Ήb&amp;�*��
+(�1s&#x18;�������R#�g.1�R?���[~��&#xc;o���&quot;���V&#x16;�-��0s�Jq��vd�,;&#x15;C� &#x13;�&#x10;��e�d&#x1c;&quot;ŷ&#xc;���)����&#xd;3�N�ݰ��&#x6;u�/&#x7;nsxծ&#x17;��&#x4;�~�ǵ�-�8����Q&#x19;&#x15;3d~K*�$[���S&quot;�i�Z@ﲌ�zf&gt;�����K��&#x7;,�&#x16;��NM�������gr��LȦ�1��&#x4;��?md�1&#x1;��M�;xERx��Sw3���~�+&#x2;I&#x15;��1�x�t��{U�Q/&#x1d;�W&#x0;��=IMS�o5vT�ՔdU����u��T����y&#x1f;�W�&#x1f;.&#x2;&#x19;�&#x1a;���@��&amp;˥�!EL��3Mo���Qb�I��4�w�&#x3;oxs Z�i&#x1b;�v&#xb;r@1&#x19;n&quot;����%�Af�h�쁍�(1��Ԉ��#i�ٴ��4���D�斮m��C�~�
+v!ƖcY��&lt;;n�&#x16;���&#x1c;Ό&#xd;X�n�����&#x19;�)`���|������&amp;�j&#xe;������z&#x1b;s��P6��&#x1;��Vף�2�j�5����֣�u&#x15;&amp;V�ӱ�ӎ	�&#x14;5&#x1a;&apos;����u;Ã&apos;���&#x18;&#xe;L�5�r�BZ���$&#x7f;T���G
+&#xc;�M*���&amp;��v&#xb;��[&#xd;�{�Nq6��&#x1d;|�1����&#x8;&#x7b7;2�S�ǆt&lt;��&#x378;���.�Θ�y �K�&lt;�&#x3;ڦ��.c��+雦񖎤������&#x14;�{u劼�&#x1d;�+�n�&#xf;o��ݺ&#x1d;U&#x15;���uj��1&#x8;�P��Wo�&#x19;�hʗL&#x19;&amp;˻x�^w�w�AwPo&#x1f;&#x8;�&#x11;��s�H���&#xe;�e��X&apos;4ե�E��I�&#xc;L��i���v&#x1a;O���&#xd;���4��&#x5;4�8���&#x10;�������&#xc;?]��zS$(Å�&#x3;E?�&#xb;&#xc;ĭ!D�D&#x5;N򼤴��I)�k�%��&#x1;%��&#x7;&lt;��;^]�W&#xe;[���
+F��4���$�&#x10;�(G�&#xd;g�&#x1;_���vђ�����Bn��{�+R&#xd;d��4���6Rp&#x16;�c�bi&#x1f;q�ڭ��w�f}P&#x1f;v�&#xf;]�l7]��.UJk�m6kҜ�U�j��p{�m�&#x10;�%烰�&#x1d;��&#x1b;�b��&#x6;��&#xf;&#x14;&#x0;kú�u]E�Ҩ��^m&#x8;&#x18;~v�^��&#x2;���֗&#x7f;7d�4&#x17;1&quot;h�P�!&#x4;yA�}&#x5fb;i&#x17;h&#x12;�* 3)쬵��&#x1a;Y�P���Z`݀�)&#x8;�����Զ�r&#x2;&#x1b;r&#x1d;�P&#x6;�t9L&#x19;��d�ܒ�1F�0���m�,i��(�?j5FSR2&#xb;�&#x1a;+�BDMU9��X&#xc;�a��P��P����I&#x13;�1�&#x7f;&#x11;kD���&#x1f;&#x11;&#x1d;c�&#x1a;P&#x0;�Z�dTF�t-��+&#x3;H-&#x1b;&#x19;L6`��&#x16;�UWijPS�&#x13;&apos;�&#x6;8��hz��.���&#x1f;&#x1d;ᤱ��l�zͻ&#x1f;T2�f��JF�aD�43��*#�J�(�=5�%&#x1d;�ʉ�&#x1c;���&#x16;*�4n����a����g�a:%�6&#xd;�fޑ#�&#x13;&apos;S�&#x8;LX�&#x93;&quot;2\n��?�x�&#x1d;��&#x5fb;&#x1;�Zd����a�&#x1f;�MuImQ.&#x13;�9ͼ�e&quot;&amp;:̶&#x1c;&#x1d;�����6m� ˩/G[��mIRG����&#xc;��&#x1f;��&#xc;*h���hv�a���&#x4;�����n��_���d:)&#x1f;oMM&#x13;�Z�hikL.�lb8|��&#x528;�W39
+���V�LRE�&#x1c;��T���e&amp;]
+(���&#x1f;�Y�D��&#x10;��(�͠��&#x1d;{Ȋ�*��^�o,+
+�&#xd;&#x18;D�&#x11;�ɰt�谼����&amp;�KaJ��o�$^-u���&#x1a;��$�)	�F�.u����%�Z�&#xb;��d����c&#x19;i&#x18;�e��s���ƽ��8��0�ח�&#xb;�&#xe;����P8b(�,ζ�v)�eݗ]&#x13;1Zs�k�zאüO�&#x1e;Z&#x1b;&#x1e;� �[li{��N_���$oU���&apos;���&#x6;U�&#x1e;4&#x19;�w�bx���	&#x10;����Td�!�`a	�,nLm�&quot;�&#x6;&#x16;l���j�!��i`X�f��&#x5;��&#x1e;U&#x1a;���N�&#xb;��L&quot;wJ�Y�&#x17;�&#x12;{m�P5KL�&amp;��&#x17;lǼ��&lt;H��v���&#x2;�{G��(&#x0;�&#xe;����d�
+�����4�&quot;��~���R&#x378;e&#x12;&#x15;si�&#x14;C�&#x15;��x&#xd;
+�&#x3;8K&amp;�� p�AQ&#x4;�ĕ5i�\�L��ʥ�&#x1a;�Vo0T&#x19;���|]�lOÎ
+����;�&#x0;���&#x4;���&#x1c;�&#x13;kO�Jc[9&#x12;��ۍv&#x1d;T�U&#xb;z���E�kV&#x1a;�ڻ�l���x&#x15;�-��h&#xf;ž�&#x1d;r��&#x19;}&#x1b;P���=��q�Z۟�=�n �D��p&#x0;l}&apos;p�V���02Z&#x10;���&#x13;W���6�;7�&#x1;�Z�([f(h��NA���k&#x7f;&#x12;F�v.W&#x1a;[��&quot;��}S�z��Gf	&#x16;`&#x2;&#x1b;�.&quot;1�n�&#x7f;�+&#x10;K�&#xe;��ڊ&#x1a;=&#x10;�7��&#xc;���q3���&#x10;o�拲�C��&#x2;sdkXL�&#x10;�n6R1t���Ȯ~&#x13;2ٻm&#xd;&#x1a;&#x1f;�7�&amp;�F&#x11;���������H&#xc;*&#x16;��¦E&#xc;|�&#x12;�x���y��ui�dFpAӫ���j�,_�e���)m&#x5;�ss}	�ؽ&#x1a;�tZ�&amp;�&#x2;C����&#x2;�&#x0;f*�&lt;t�k�R��&#x13;^9��&#x17;&#xd;�Ov&#x7f;�T�
+t&#x0;��cY�&#x13;ސ&#x1c;H�M&#x3;v�#!�A:]uR���f�u�Q
+^ܺ���ѿ&#x4;ۣpA�L�h�,�*��&#x14;&#x4;�	&#x8;:�X6/&#xc;pfq��͵۫Ԍ�rU�Q�6Ȩ�ټ�s��n�&#x1a;fo��)[F6ɖ�ې&#x1d;&#x6;�_C&#x11;Cm6�wR����&#xc;��gܭ&#x7;b�&#x7;
+���&#x1b;63�-��m�Q�H0K&#x1a;}&#x6;��З�&#xe;`�ԑ&#x1;o��H�&#x11;f��&#x1b;e��&#x8;�U&#xc;M���+��&#x13;��
+(��i�tY��},f�/��!Y��7݈�&#x2;�j&#x1f;�ڽ���&#x5;&#x7f;MY��m�&amp;�&#x11;JKmh��t���^4�}������ѭ�]��6&#xf;&amp;���l&#xf;&#xf;���2���&#x19;��ɩ��&#x13;�K/N�n�!C�LS���&#x10;!�&#xd;�ȭ�-��&quot;rj;�2̃Ԧ��6d����$86�����ְ�!�&#x6;�Ӎ$f	��+�/&#x17;&#x0;�&#x6;��M]�Wl�d{��j&#x7;&#xd;��EG��wb9���d]C���=�j�0c+*��&#x4;���z&#x7f;蹸k&#x10;�I�E�ߦ�[��h�p��X%+����u�B7�d�j���u�P~x�E���.C��i����z�����&lt;)����e|��}κ&#x5;�s&#x7f;&amp;���XL�L))���n��&#x16;��:�&#x13;_Ҹ��g&#xf;L&#x0;�x�&#x15;��i�A��tx��J,�&#x1f;��e&#x1a;%&#xd;&#x7f;|���}&#x1b;O5)�V�SF�&lt;�nv8O?Y��m��&#xf;�p�0&#x8;�v�)&gt;GK&#x17;t��w���]���	]#k��&#x1a;�&#x13;�g�(~U�P|���04�&#x1f;&#x15;�&#x1e;5�@��	q�����q�Z�&#xe;�c���37&#xb;��&#x6;���U2�uc�@#�\E�nIDA�^*��&#x18;���9~�CD�]�HYM�&#x1c;�&#x557;5�6N�]��? `���9�&#x17;� F��n��o��&#xc;&#x18;H�6&gt;�(ݵa��=�}b����&#x6;]0����_o|B����&#x3;yd����r�Ej��m�&#xd;�&#x5;����0���&#xd;������&#xb;&#x7;SO7ە&#xe;���f�7l�u�&#x1e;����w����&#x8;�;�1��h|����H&quot;�Y7���nӫ�����L&apos;� dlH����Z,��&#x15;&#x1d;���(٥)3�&#x1a;jQ0�Ѩo@&#x13;f�4@�&quot;�&#x1e;�&#x14;�n[[k�&#x1f;N0�&lt;@&#x15;�b��zD�N�&#x2;pn���М�&#x2;�ֽt&#x7f;&#x3;8��Pzbڪ���&#x7;����Ֆ$�T�����5�0t��&#x10;D3j��&#x1f;�s��&#x4;{&#x17;[�&#x1f;Z0��`j�&#x14;w��F�&#x18;�&#x7;&#x3;�ļ��f���(�.0iC|�u&#x1d;�)Σj��D�l&#x6;��L�&quot;�\�&#x6;&#x17;#?&#x15;�h%|&#x16;W&#xd;����
+1d&apos;XO�E�+&#x5;��&#xb;������Иr?���ܹ_աh&#x6;&#x11;��SV�A
+��&#x10;�Ѫ�@	�!&#xe;\�&#x12;B�Wɐ��@q�q�&#x18;ne��@�&#xd;&#x4;Cp�\���&#xe;���0T��;�&apos;Lҫ�Jz��&#x0;��\�JqT&gt;&#x1c;}&#x1e;c���&#x0;&#xc;�є���pY%G��2ir�&#x18;V�;W�#\�&#x1f;�U+��a�Ձ�&#x1c;��(�&#x6;I���&lt;i�&#xd;nac�Ϫ�,n&#x1f;��{&#xb;&#x7f;\���#�/#�&#x7f;�&#x10;����&#x7f;��&#x17;]�u^��&#x15;L�]�&#x6;�&#x1e;&#x15;&apos;�&#x10;�i���?D�&#x5ca;!x�Q0�r^�Iq~;&#x1;&#xc;wUbP��B&#x1;��T�&#x4;pl�Ҩ0r�e��&apos;�?~�U��2+N�*��
+Hk�?T&#x1a;[̐t�&#x0;3&#x18;�&#x2;�&gt;&#x7;�{&#x1a;��U�a��џT��d&#x6;�*ۯ:����xԚ�#^�&#x8;k,����P�v�&#xd;7^��`Zi&#x8;&#x1c;�Պ�6O` �C�ve&#x8;��U�&#x7f;���&#x0;�&#x10;ǯ�0�U�9�$
+�p�b���Z���B&#x18;Q���ɫ]2�!Y�t��&#x0;�&#x17;�&#xb;&#x1e;U�&lt;������&#x19;H&#x12;��i�Aꊝ&#x14;&#xc;9�.�t��]{ T-L��&#x1c;�DQ�s�L�&gt;�y�kG&apos;�fs�&#x7f;���&#x1;&#xc;U���i&#x10;�O&#x1;C��Pu�*�t���ZѠ�N_�I&#x12;V)&#x1e;&#x14;�6�?&#x1;j�+�&#x1f;
+� �4�*6rJƨz�H,�&#x1c;��D0�i@&#x1;&amp;9&#xd; �Sp���$XV���&#x1;��:&#x11;D0V&apos;D&#x1f;@s*ĩX�T�u��&#x8;ܔʩ a�&#x4;-�V�&#x12;E���j&#x1a;Tl}�&#x16;�+^H�+����S�r$���&#x4;�&#x13;ا�}�t&#x2;&#x1c;R��&#xd;&#x12;�iإU�Ѽ��&#x1c;F��]��&#x1c;@�&#x16;�I���&#x7bb;�7%��&#x1a;|��n����Cn&#x15;o��x�A��������$��;x&#x3;�ɬ�K\&apos;��&#x17;�y&#x12;�z��:&#x1d;(�����*��[R�$���P�&#x11;&amp;A��Q7dJ�HĶ�Y&#x18;&amp;��j@%���Gp٦�U�MKD�(�&apos;�;J�{Q^��\F�̪�6[}&#x17;ϫ華�X�1I&#x16;�6���
+��&#x19;��&#xe;�&#x14;�2t&#x1b;Y�V	��Z����m&#xe;?�w�����8��G��M\�i�l���ΡB�&lt;����E�8�e�L�+&#x12;�1�N�K&#x10;G�&#xc;*uЭ��k���&quot;A���o�0�d��&#x0;&#x13;f���F�	�4���Ȅ|l&#x7f;B&gt;����*N�&apos;~K&#x12;��}Lȇ&#x7f;�&#x13;���&#x7;�%�c&#x5;��؊�&quot;/&#x1f;&#x1e;שȷ���m��K��&#x19;&#x7f;����y8�&#x7;&#x12;��dO*/��&#x13;�H�&#x13;&#x17;�o����[i&#x0;��Nl��&#x1c;Ŋ&apos;A��&#x1;L:a��q8?l�1gO
+R5�TV �2�&#x18;��R&#x14;�!�xЌ&apos;�U&#xe;aw�=��P&#x1b;&#x19;�0�&#x14;���&#x13;~�/��&#x7f;&#x1d;$)_�b��*�Z.�&#xb;݃���Z�8{�2�SY��-R.�&#x7;r�ّ����p��&#xc;L��T�%&#x1d;�&#x15;&#x13;ONLj���u��/�82a������aq&#x18;#���&#x12;vНrf��&#x1c;3�&#x15;X�&#x13;R j��R�&#x4;
+5ˡ�c\�Q���G�~_K&#xb;���?��2l�E�QY��/&amp;Q�aF!�&#x7;\b�.���%֭t@RW��&amp;i���0|�r�`ꔩ m-&#x13;.�0���I�*߶�)���fH��_�&#x5;Ra��]�I&#xd;&#x11;����˱&#x16;&#x10;�&#x14;&#xe;6+&gt;�]�D�+�7&#xb;�&#xc;�S���&#x8;+o��˒��/�&gt;fи�|���ei0���L���轳�e�З�Bs&quot;��Ϟ��,R����&#x7f;�=&#xd;K[O��}�+�&#x8f;��&#x13;_&#xd;�l&#x13;G�tL�&#x7f;&#x1b;i.&#x3;�r�&#x10;��g���cQ�&#x7;��&amp;�.��nY$���R
+&quot;ź7�R��&#x1c;��&amp;��&#xe;E&amp;�s�w��յ���]}�/&#x1;�8T+��&#x17;��&#x7;�_�]o �&#x7f;�&#x19;�&#x1e;�2&#x1e;&#x10;|a&#x1e;F3&#x7f;&gt;y�%��`�&#x7f;!��&#xe;�(e�3�1�*Xe&#x15;�&#x16;}&#x11;j��&#x17;�{&#x1e;�����&#x16;&lt;
+��Zy&#x4;ҁZ�\�m&#x8;�m&#x1c;�c��#��d��J&#x0;\�8�&#x1f;��CEt�8&#x0;��Q8 m&#x11;��-:��&#xd;B&#xf;�q[4Mr�QD&#x15;r�.:&#x7;v��E�&#x1a;�%l��&#x1d;��6G&#x1e;E�&#x1d;}f�G�&#x19;&#x16;=2�H&#x7;�]4&#xf;d�&#x1f;�V&#x10;&#x8;}c�q,��2T��t:��_�P�&#xe;;�\�ȱ�}�&#xc;�a���&quot;��m&#x5;��[tؑG�֏ݠyd&#x11;d&#x18;Gv�&#x1a;�&lt;&#xe;��&#x1d;&gt;T�&#x18;�C&#x5;��-��`�K�lM6&#x1b;����&#x17;&apos;�&#x6;��E���O�z����&#x17;��2
+��Z��	�ẹ&#x4;��&#x14;��&#x2;����q��:�J�O&amp;�&#x1c;�i����u��x�&#x381;S��&#xd;3rt{�9�)h��4M�`�&#x0;��&#x11;_�k�p&#x1e;$a&#x4;�&#xe;kxϦ&#x4;ɰ�n���7�i&#x1;�&#x1c;k4&#xb;��&#x4;�ql+۲�&lt;i��� oj��c�&#x15;5rd&#x1b;�:v&#x4;Ll�8�:Y��&lt;:�=b��,��z�&lt;&#x1f;&#x1f;W�&#x13;B�ll]���G&gt;&#x11;F��,&apos;�U�rd&amp;_U&#x1;&#x14;��G�|G&#x16;&#xb;`�&#x1d;�L��c����t�^�,��i���6�U��� &#xe;�e4��T��~m-�mm
+#��ܒ�����lv;-��7�S�j1���cMm&#x13;���֚/��l&#x1b;��ρ
+�&#x7f;�V9u[�֠Uo�~�	�냁{�&#x13;[&#x7;&#x6;|�&#x8;#?z�&apos;�&#x15;&#x10;���=&#x16;{�&#x6;���U�1�w��;��&#xd;E&#x8;�&#x11;�v{�,&quot;t�f*Be&gt;i&quot;&#x5;&#x12;�s�&#x1d;u�y
+��*&#x16;&#x17;&#x1f;���������&#xc;��Y�٦�.`0&#x1;�Y�&#x1;8�_E�ro���n��`-c&#x1f;tG|&#x11;�k&#x1a;$�0x�h��&#xf;A�H�L�Lc&#x11;,&#x17;���&#x16;��U{�0	�m[w���4�o�&#x1c;1&#xd;&#xb;Ė�&#x18;���Ox&#x10;=%��&lt;�E�vn��&quot;
+&#x13;��o=�̶4�l,�G1&#x7f;��� I@&#x16;�&#xd;�89�&#x6;�&#x15;�O��5�&#x16;M�� �&#x6;aĶM{���(�M��&lt;�Dϵ&#x1a;_��7e�����ۿ�B&#xb;&#x1e;͂8~�&#x11;�u��䀕&#x1f;ϣH&#x2;�9�(�st�i&#xc;j��&#x7ff;	9�j�&#xe;4C�&amp;y�2n�߆/a���&#x1f;?J&#x15;&#x15;EoB&gt;V�,%�i����G�b&#x11;c/�d&quot;0�h�۲H~҅_��!�A�U&#x11;&#x19;E%M�C�	�/y���)��9�)T1�s����&quot;��/�������E�&apos;��&#x3;�ZS��ǿ��5u&#x3;&#x1e;&lt;�´{_����q�&#x19;&gt;&#x1b;��C�&#xd;f��=��i&#x18;�=���`��&#xc;�Sa���&#x18;�&#x1b;&#xb;&#x4;&#x10;.��e0��&amp;&#x0;�j�&#x0;���`&amp;��1@#��x���hl���ƹ_�&#x1d;2���H�ٜN&amp;��&#x1b;�&#x13;�U�&#x1c;�ߺ�&#x1c;��&apos;&#xc;��[�a�&#x98;�(u&#x1c;��&apos;�H��WX�ܫ|4��f[�&#x16;&#x1b;�th��CU�&#x11;5&#x1d;�Xcv�F�W�&#x1b;&amp;&#x16;�|�y�::TA�&#xe;&#x10;�y��l���&#x1b;#[&#x1f;��m &#x13;`��
+�y&#x1f;L�W�fT�&#x12;?J�&gt;r��\M�5B&#x6;D&#x7f;�i��&#x5;P�x/z�j�w�&#xb;m&gt;&#x7f;H&#x1e;ы%&#x16;�ה=�:zA&gt;�u�&#x1b;����е����\h&#x17;��$|�E2Ɵ{&#xe;|���s�&#x1d;�Z&#x7f;� %�&#x1b;&#x5;��w�8�|&#x1e;?�k��S��A�Ac&#xb;&#x7f;�vb_P�&gt;&#x0;�&#x1b;~��2�6�/[͐wr&#xf;8&lt;�]��|&gt;���O&#x1;C�%X�I��`&#x14;�&#x1f;v=&#x5;&quot;Mv&gt;$�@L?�|�\H�)~&#x13;.&#x18;�6L��hR�&#x1d;&#xd;&#x18;���kΘ�5�;ڽ6�&#x13;����D��P09�&#x2;&#x14;�4��Ң�&#x7f;󱭁&#xc;�jc���2u�o��&#x1a;a&gt;�&#x1d;�X�ֿC��&#x17;��&#xb;x�JR&#x1e;�&#x1;�&#x0;-�e�&#xf;��f��y?Z&#x17;	TӉM�A��&#x13;��в&#xd;&#x18;f&quot;n�&apos;!̍�k��^|G&#x8;&#x16;�����p;A�*x�m&#x1;�P&#x1f;&#x5;&#x12;���k��	&apos;�r1�)&#x13;՟�`��&apos;��O�%G�&#x3;f���C�I&#x14;��)�������ݬE�H�[P&#x16;��u�&#x1;b{Χ&#x1b;o#Ea���&#x1f;&#x18;�~�&#x13;.�;3&gt;&#x3;���&#x12;����ه&#x11;M�������&#x8;�)�,�Fǋ�p���&#x1b;��c&#x11;�Ȉ��ϗ���@�L�&#x16;�&quot;ْ�/g�&#x4;&#x1;&#x11;&#x3;^��&#x17;&#xb;�&#x1e;��^M��&#x13;&gt;AkԀ�S��m&#x13;���&#x5;��&#x7f;b0&#x2;u&#x1;�&#x6;�p,�&lt;���я��&#x7f;�������fW,��]����U���߲����#�B�=�y����&#x1d;L&quot;�:&#x17;�&#x19;V�&#x4;��&apos;�G9��X��ݚK~�&#x5;&#x1b;&amp;�&#x1a;&#xf;;�5�$ ���4&#x1c;��2�&lt;�5�B�FO�����k��Hcm�f0W7�ʊ���,g#�4�h���zts�&#x17;�&#xc;�y��y
+�ď�&#x5;&#x17;��9�&#xe;�0���j�������n&#x10;:h|Z7&#x2;z亮}��&apos;M�s�k�&#x7f;ϔ�Ϭ2Ǫ?�F����&#x1b;�פMw.&gt;!N&#x7;�y&#x1b;��ٸ����A���X͗&#x0;��G�O��������&#x18;
+�@�ɄOZs%���Ǭ�Y&#x1;&#x7f;�/@6 ߂&#x10;ࠕ��&#xc;ᝋ)���:���&lt;�&#x10;���`&#x1c;��L�d&#x16;&#x6;lϵo�f�(�8���Ǹ3R��9&#x16;��?&quot;Dӑ���k� �(xB�8&#xf;&#x1e;&amp;��$���&#x19;\&#x12;-��
+�iv)J3�*QpM��y��g%&#x11;�hR�Rn��&#x5;&#x5;1
+6�e�z���5&#x8;�Q�F5���&#xf;�&#x1b;\�y���&amp;�:�[�V��&#x3;�
+�1?�0��&#xc;|�-�&#x11;MX|kd#�&#xe;)&apos;����&#x19;�&#x1a;�����ivo�?��&#x4;_2��&#x1f;M��C&#xf;�?����|�gq�\���&#x13;&#x8;�&#xb;���&gt;�sȨ�i�dl&#x12;m�&#x19;��&#x12;S$�	���7�&amp;�&#x7b4;�����--�t�[&#x17;&#x14;�P� ��9��&#x1a;&#x1;&apos;&#xb;���|&#x17;B��?�v&#x10;;��ؔ��8V&#x15;&#x15;&#x1c;�`yKftA�B|����:y�&#x16;L� c���Mi��*��&gt;Z���mf�&#xc;�
+\�&#x8;�&#x4;&#x13;&#x1f;��׆z��q�&#x1e;�%�0~f�^Y,{Q8&#x16;:aW��ѯ`^&#x5;�&#x1;��&#x14;��.���C���&#x17;�&apos;_����I��x&#x7f;��&#x7;7}wxUo������[M��/�&#xb;�ۦ�z��/c��wTkOx�ؤ�?&#xb;�+4&#x2;��K���v��I&#x1e;�s�^��N&#x13;?���,!�h�&amp;r&#xb;bAgr֒n0\$�^-2՚�U&#x8;��=�r��Tݢ�)&#x18;�Hl9��
+�E�5�&#xc;�|&#x11; A��_��2�c.���s�� Z
+C���q6�g�D���gM0&#x3;�H&#x2;�a�x�,�Cք��W0)��+u�&#x15;(;Q؞A|&#x1b;~�&#x13;sT_����uv+�=E�ui�7&#xc;&#x19;N����5x݁�[�&#x7;6�&#x12;~{V8#��x&#x12;=o&gt;�ۭ`0cT)�ʨҿ�&#x1c;��&#x16;%&#x4;�d&#x19;$GJ����Z�nd�Ţ챴&#xe;�K&#x8;�9k%�&#xf;�&#x15;&#x7f;�&#x6;y�U&#x10;[&#x18;��&quot;i�����L����b4��&apos;�E�f��X�(�F_�I4ï�i�O2O&#x10;�M$Ј��`�yt�&#x1c;s�&#x16;m&#xd;���ï��&apos; �;��%� ��s�|&#xd;�/&#x17;`}&#x7f;{��&#x0;&#x1d;T�?��&#x1a;���:�,&#x11;��]&#x5;�(�@;[��T{j��&#x2;X3�Z{H���G-y�3�a�(��&#x1e;A ��F����&#x1a;e�c��d&#x14;
+C���s!������͟��&amp;&#x14;��Kܐ&#x14;�&apos;^&quot;� �%5D�&amp;&#x10;;��&#x1b;�|�e�̓�)�K���+�&lt;�\n�r&#xd;&#x15;&#x5;&#xf;H���&#x6;��a�&#x1f;�&#x12;H�&#x7f;�9����9Ͼ��Yd�&apos;&#x1;Fi�����G&#x15;&#x1a;�K0^Q�|�z!�Hb�&#x5;��&#xf;wǏQ8&#x13;�	���&#xc;ߢ�Q�Ɏz�c��C�&#x7;K��	j��估&#x8;hbq�&#x0;�i�G�z��&#x10;&#x6;8�&#x7;&#x10;X&#x16;�&#xd;��&amp;O`���eu&#x7f;�&#xe;&amp;�g��&#x7;Q&#x4;�&#xe;�v��Yiq�%ț~;&#x17;R^��/���-�R����&#xf;��_�}�}��&#x4;&#x13;@&#x10;F�&#x14;�6p�&#x3;�&#x12;������W�G�߂���߹(�_��=;+S�B���8T�s�w��%�(P&#x13;-&#xd;hֲ�&#x5;=�Ȧ,y�Gn���;CY��L�ru&#x1a;C*Rg�6���c&#x10;��^&gt;K³&#x11;?��T��&#xc;z]&#xb;�gɣ�����&quot;�&#x12;,��ϰ�5��Yx&#x7f;�&#xc;?�;��p6&#xf;������&#x19;�&#x6;��g&gt;�w&#x16;&apos;��Y�&#x1a;c(}���j�%�Ey�T��j�-&#x16;[����Y֒є���&#x1f;_���09�0�+�ZE^V&#x14;U�ki�w�x�&#x3;G�� �QFKZ&#x0;������7&#x15;&#x10;3&#x17;&quot;�MK&#x19;-?���ј����@Z,�W瓳\���A�
+f�v�C���&#xd;����&#x5;��at��#|$���b��*�s��`��U�&#x12;n&#x17;&#xb;&#x16;&apos;���7�&#x3;t�&#xc;��$]&#x1f;&lt;�&#xf;�q&#x18;  =t�l�W�&#x1;�q[S�g&#x18;1���:&#x11;	&gt;�`�h��&#x18;�`����&#x1c;k\��&#x17;1;��g�=^?�}&#xd;����4�I&#x5;�&#x4;&#x1e;�&#x6;X��]�d�ϸ�&#xd;P=���&#xc;�q&#x13;i&#x7f;Ϥ�q���㎖ c&#xc;U��2&#x1b;&#x19;�&#xe;�z��y �~&#xb;&#x16;���n&#x5fc;���(L|����r~�c�}�O���xp�Y&#x18;��Q�#NW�8�&#x1a;��i�M���j����&#x16;i.	#�7]�@���և����&#x1f;f�&#x1a;�&#x1f;C&#x6;���7y&#x7fe;�xwut���ct#0@�&#x4;C*P/�&#x16;�	�l&lt;٘S�&#x5;�.�a�&#xb;zx��&#x4;+s]}?�P#��iLO��Z�&#x18;DS�\Sq�Zj-�lRK&#x9a;�RA�7l&amp;]:�z&#x2;#&#xb;2��M��{e�ɥ&#x1a;&#x10;&gt;#^ϲ��1&#x1d;��xT#c{R�G̪�&#x16;�k�Ģ�pf�|&#x7;C&#x13;��&#xf;�y7F�c&#x1;&#x0;</queryString>
+  <java.net.URL>https://incoming.telemetry.mozilla.org/submit/telemetry/5b473ae7-a398-4ee8-b02d-db530e4fa482/main/Firefox/85.0.1/release/20210204182252?v=4</java.net.URL>
+</httpSample>
+<httpSample t="341" it="0" lt="0" ct="246" ts="1613104975608" s="true" lb="-2" rc="204" rm="No Content" tn="" dt="text" de="UTF-8" by="557" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Server: openresty
+Date: Fri, 12 Feb 2021 04:42:56 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-Control: no-cache, private
+Access-Control-Allow-Origin: *
+Vary: Access-Control-Request-Method, Access-Control-Request-Headers
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Headers: td
+Access-Control-Max-Age: 0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Credentials: true
+X-Served-By: co-tc-shopper-api-dev.serempre.dev
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Host: co-tc-shopper-api-dev.serempre.dev
+Access-Control-Request-Headers: td
+Access-Control-Request-Method: GET
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://co-tc-shopper-api-dev.serempre.dev/api/v3/cities</java.net.URL>
+</httpSample>
+<httpSample t="203" it="0" lt="202" ct="112" ts="1613104975963" s="true" lb="-5" rc="200" rm="OK" tn="" dt="text" de="" by="3904" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 12 Feb 2021 04:42:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-RateLimit-Limit: 100000
+X-RateLimit-Remaining: 99999
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Credentials: true
+X-Served-By: co-tc-shopper-api-dev.serempre.dev
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+td: 
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Host: co-tc-shopper-api-dev.serempre.dev
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;id&quot;:24,&quot;name&quot;:&quot;Armenia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:31,&quot;name&quot;:&quot;Barrancabermeja&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:4,&quot;name&quot;:&quot;Barranquilla&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:10,&quot;name&quot;:&quot;Bello&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:1,&quot;name&quot;:&quot;Bogot\u00e1&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:9,&quot;name&quot;:&quot;Bucaramanga&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:22,&quot;name&quot;:&quot;Buenaventura&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:3,&quot;name&quot;:&quot;Cali&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:5,&quot;name&quot;:&quot;Cartagena&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:6,&quot;name&quot;:&quot;C\u00facuta&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:29,&quot;name&quot;:&quot;Dosquebradas&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:28,&quot;name&quot;:&quot;Envigado&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:23,&quot;name&quot;:&quot;Floridablanca&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:12,&quot;name&quot;:&quot;Ibagu\u00e9&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:26,&quot;name&quot;:&quot;Itag\u00fc\u00ed&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:240668,&quot;name&quot;:&quot;Leticia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:43,&quot;name&quot;:&quot;Leticia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:240669,&quot;name&quot;:&quot;Leticia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:240670,&quot;name&quot;:&quot;Leticia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:240671,&quot;name&quot;:&quot;Leticia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:240672,&quot;name&quot;:&quot;Leticia&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:17,&quot;name&quot;:&quot;Manizales&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:2,&quot;name&quot;:&quot;Medell\u00edn&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:15,&quot;name&quot;:&quot;Monter\u00eda&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:19,&quot;name&quot;:&quot;Neiva&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:20,&quot;name&quot;:&quot;Palmira&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:18,&quot;name&quot;:&quot;Pasto&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:16,&quot;name&quot;:&quot;Pereira&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:240667,&quot;name&quot;:&quot;PIEDECUESTA&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1},{&quot;id&quot;:21,&quot;name&quot;:&quot;Popay\u00e1n &quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:32,&quot;name&quot;:&quot;Riohacha&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:13,&quot;name&quot;:&quot;Santa Marta&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:25,&quot;name&quot;:&quot;Sincelejo&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:7,&quot;name&quot;:&quot;Soacha&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:8,&quot;name&quot;:&quot;Soledad&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:30,&quot;name&quot;:&quot;Tulu\u00e1&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:27,&quot;name&quot;:&quot;Tumaco&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:14,&quot;name&quot;:&quot;Valledupar&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:11,&quot;name&quot;:&quot;Villavicencio&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:0},{&quot;id&quot;:240666,&quot;name&quot;:&quot;ZIPAQUIRA&quot;,&quot;lat&quot;:&quot;0.000000000000&quot;,&quot;lng&quot;:&quot;0.000000000000&quot;,&quot;allow&quot;:1}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://co-tc-shopper-api-dev.serempre.dev/api/v3/cities</java.net.URL>
+</httpSample>
+<httpSample t="342" it="0" lt="342" ct="297" ts="1613104976554" s="true" lb="-7" rc="200" rm="OK" tn="" dt="bin" de="" by="636" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Type: image/gif
+Date: Fri, 12 Feb 2021 04:42:57 GMT
+Expires: Fri, 12 Feb 2021 04:42:57 GMT
+Last-Modified: Fri, 21 Dec 2012 00:00:01 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Set-Cookie: fr=02IFFlA1LxBkeg4nQ..BgJgdR...1.0.BgJgdR.; expires=Thursday, 13-May-2021 04:42:57 GMT; path=/; domain=.facebook.com; HttpOnly; secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Resource-Policy: cross-origin
+Server: proxygen-bolt
+Alt-Svc: h3-29=&quot;:443&quot;; ma=3600,h3-27=&quot;:443&quot;; ma=3600
+Connection: close
+Content-Length: 44
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: www.facebook.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: image/webp,*/*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: (bin)</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://www.facebook.com/tr/?id=589092461801708&amp;ev=PageView&amp;dl=https%3A%2F%2Fco-tc-shopper-web-dev.serempre.dev%2F&amp;rl=&amp;if=false&amp;ts=1613104976418&amp;sw=1536&amp;sh=864&amp;v=2.9.33&amp;r=stable&amp;ec=0&amp;o=30&amp;fbp=fb.1.1612880413937.1324075657&amp;it=1613104976285&amp;coo=false&amp;rqm=GET</java.net.URL>
+</httpSample>
+<httpSample t="177" it="0" lt="177" ct="136" ts="1613104978083" s="true" lb="-9" rc="200" rm="OK" tn="" dt="bin" de="" by="636" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Type: image/gif
+Date: Fri, 12 Feb 2021 04:42:58 GMT
+Expires: Fri, 12 Feb 2021 04:42:58 GMT
+Last-Modified: Fri, 21 Dec 2012 00:00:01 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Set-Cookie: fr=0F7GH0xOpEfkdYYXZ..BgJgdS...1.0.BgJgdS.; expires=Thursday, 13-May-2021 04:42:58 GMT; path=/; domain=.facebook.com; HttpOnly; secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Resource-Policy: cross-origin
+Server: proxygen-bolt
+Alt-Svc: h3-29=&quot;:443&quot;; ma=3600,h3-27=&quot;:443&quot;; ma=3600
+Connection: close
+Content-Length: 44
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: www.facebook.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: image/webp,*/*
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: (bin)</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://www.facebook.com/tr/?id=589092461801708&amp;ev=Microdata&amp;dl=https%3A%2F%2Fco-tc-shopper-web-dev.serempre.dev%2F&amp;rl=&amp;if=false&amp;ts=1613104977937&amp;cd%5BDataLayer%5D=%5B%5D&amp;cd%5BMeta%5D=%7B%22title%22%3A%22Tienda+Cerca%22%2C%22meta%3Adescription%22%3A%22De+la+esquina+a+tu+puerta%22%7D&amp;cd%5BOpenGraph%5D=%7B%7D&amp;cd%5BSchema.org%5D=%5B%5D&amp;cd%5BJSON-LD%5D=%5B%5D&amp;sw=1536&amp;sh=864&amp;v=2.9.33&amp;r=stable&amp;ec=1&amp;o=30&amp;fbp=fb.1.1612880413937.1324075657&amp;it=1613104976285&amp;coo=false&amp;es=automatic&amp;tm=3&amp;rqm=GET</java.net.URL>
+</httpSample>
+<httpSample t="488" it="0" lt="488" ct="371" ts="1613104978715" s="true" lb="-10" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="658" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:42:59 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 421
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+function pLPCommand(c, a1, a2, a3, a4) {
+parent.window[&quot;pLPCommand1&quot;] &amp;&amp; parent.window[&quot;pLPCommand1&quot;](c, a1, a2, a3, a4);
+}
+function pRTLPCB(pN, data) {
+parent.window[&quot;pRTLPCB1&quot;] &amp;&amp; parent.window[&quot;pRTLPCB1&quot;](pN, data);
+}
+         pLPCommand(&apos;start&apos;,&apos;132403&apos;,&apos;ym7Qj6befw&apos;);
+pRTLPCB(0,[{&quot;t&quot;:&quot;c&quot;,&quot;d&quot;:{&quot;t&quot;:&quot;h&quot;,&quot;d&quot;:{&quot;ts&quot;:1613104979764,&quot;v&quot;:&quot;5&quot;,&quot;h&quot;:&quot;s-usc1c-nss-269.firebaseio.com&quot;,&quot;s&quot;:&quot;iRkgY4tiIXv4m2IRditx7bKh4pUtgzva&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?start=t&amp;ser=72458478&amp;cb=1&amp;v=5&amp;p=1%3A587381329944%3Aweb%3A911c390207ddbac935f36d&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="449" it="0" lt="449" ct="342" ts="1613104979219" s="true" lb="-12" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="643" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:00 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 419
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;body&gt;&lt;script&gt;
+function EnvSendPing(destURL) {
+try{
+var xhr=new XMLHttpRequest();
+xhr.open(&quot;GET&quot;, destURL, false);
+xhr.send(null);
+} catch (e) { }
+}
+function EnvDisconnect() {
+EnvSendPing(&quot;/.lp?disconn=t&amp;id=132403&amp;pw=ym7Qj6befw&quot;);
+}
+if(window.addEventListener)
+window.addEventListener(&apos;unload&apos;,EnvDisconnect,false);
+else if(window.attachEvent)
+window.attachEvent(&apos;onunload&apos;,EnvDisconnect);
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132403&amp;pw=ym7Qj6befw&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="505" it="0" lt="504" ct="380" ts="1613104979230" s="true" lb="-14" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:00 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(1,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132403&amp;pw=ym7Qj6befw&amp;ser=65513488&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="505" it="0" lt="504" ct="380" ts="1613104979230" s="true" lb="-13" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="294" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:00 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 58
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(2,[{&quot;t&quot;:&quot;d&quot;,&quot;d&quot;:{&quot;r&quot;:1,&quot;b&quot;:{&quot;s&quot;:&quot;ok&quot;,&quot;d&quot;:&quot;&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132403&amp;pw=ym7Qj6befw&amp;ser=65513489&amp;ns=chat-tienda-cerca&amp;seg0=0&amp;ts0=1&amp;d0=eyJ0IjoiZCIsImQiOnsiciI6MSwiYSI6InMiLCJiIjp7ImMiOnsic2RrLmpzLjctMTgtMCI6MX19fX0.</java.net.URL>
+</httpSample>
+<httpSample t="716" it="0" lt="716" ct="513" ts="1613104981850" s="true" lb="-17" rc="200" rm="OK" tn="" dt="text" de="" by="388" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 12 Feb 2021 04:43:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 86400
+Content-Encoding: br
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Host: in.hotjar.com
+Content-Type: text/plain; charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+Content-Length: 257
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;user_agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0&quot;,&quot;success&quot;:true}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;window_width&quot;:1536,&quot;window_height&quot;:750,&quot;url&quot;:&quot;https://co-tc-shopper-web-dev.serempre.dev/&quot;,&quot;r_value&quot;:1,&quot;is_vpv&quot;:false,&quot;session_only&quot;:false,&quot;rec_value&quot;:0.10714285714285714,&quot;disable_traffic_log_capture&quot;:true,&quot;user_id&quot;:&quot;da4fbd64-67d8-51da-91c0-657223d24392&quot;}</queryString>
+  <java.net.URL>https://in.hotjar.com/api/v2/client/sites/1881072/visit-data?sv=6</java.net.URL>
+</httpSample>
+<httpSample t="516" it="0" lt="516" ct="396" ts="1613104995768" s="true" lb="-20" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="658" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:16 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 421
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: chat-tienda-cerca.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+function pLPCommand(c, a1, a2, a3, a4) {
+parent.window[&quot;pLPCommand1&quot;] &amp;&amp; parent.window[&quot;pLPCommand1&quot;](c, a1, a2, a3, a4);
+}
+function pRTLPCB(pN, data) {
+parent.window[&quot;pRTLPCB1&quot;] &amp;&amp; parent.window[&quot;pRTLPCB1&quot;](pN, data);
+}
+         pLPCommand(&apos;start&apos;,&apos;132447&apos;,&apos;ypx9IARnXz&apos;);
+pRTLPCB(0,[{&quot;t&quot;:&quot;c&quot;,&quot;d&quot;:{&quot;t&quot;:&quot;h&quot;,&quot;d&quot;:{&quot;ts&quot;:1613104996834,&quot;v&quot;:&quot;5&quot;,&quot;h&quot;:&quot;s-usc1c-nss-269.firebaseio.com&quot;,&quot;s&quot;:&quot;62Txce6oA6INW0creaGqyKLS4zmKfoDS&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://chat-tienda-cerca.firebaseio.com/.lp?start=t&amp;ser=28599869&amp;cb=1&amp;v=5&amp;p=1%3A587381329944%3Aweb%3A911c390207ddbac935f36d</java.net.URL>
+</httpSample>
+<httpSample t="360" it="0" lt="360" ct="252" ts="1613104996299" s="true" lb="-22" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="643" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:17 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 419
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;body&gt;&lt;script&gt;
+function EnvSendPing(destURL) {
+try{
+var xhr=new XMLHttpRequest();
+xhr.open(&quot;GET&quot;, destURL, false);
+xhr.send(null);
+} catch (e) { }
+}
+function EnvDisconnect() {
+EnvSendPing(&quot;/.lp?disconn=t&amp;id=132447&amp;pw=ypx9IARnXz&quot;);
+}
+if(window.addEventListener)
+window.addEventListener(&apos;unload&apos;,EnvDisconnect,false);
+else if(window.attachEvent)
+window.attachEvent(&apos;onunload&apos;,EnvDisconnect);
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132447&amp;pw=ypx9IARnXz&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="361" it="0" lt="361" ct="254" ts="1613104996312" s="true" lb="-24" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="294" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:17 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 58
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(1,[{&quot;t&quot;:&quot;d&quot;,&quot;d&quot;:{&quot;r&quot;:1,&quot;b&quot;:{&quot;s&quot;:&quot;ok&quot;,&quot;d&quot;:&quot;&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132447&amp;pw=ypx9IARnXz&amp;ser=14949000&amp;ns=chat-tienda-cerca&amp;seg0=0&amp;ts0=1&amp;d0=eyJ0IjoiZCIsImQiOnsiciI6MSwiYSI6InMiLCJiIjp7ImMiOnsic2RrLmpzLjctMjAtMCI6MX19fX0.</java.net.URL>
+</httpSample>
+<httpSample t="393" it="0" lt="393" ct="278" ts="1613104996308" s="true" lb="-23" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:17 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(2,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132447&amp;pw=ypx9IARnXz&amp;ser=14948999&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25365" it="0" lt="25365" ct="269" ts="1613104979767" s="true" lb="-15" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:25 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(3,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132403&amp;pw=ym7Qj6befw&amp;ser=65513490&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="329" it="0" lt="329" ct="207" ts="1613105021772" s="true" lb="-30" rc="200" rm="OK" tn="" dt="text" de="" by="891" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Date: Fri, 12 Feb 2021 04:43:42 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3-29=&quot;:443&quot;; ma=2592000,h3-T051=&quot;:443&quot;; ma=2592000,h3-Q050=&quot;:443&quot;; ma=2592000,h3-Q046=&quot;:443&quot;; ma=2592000,h3-Q043=&quot;:443&quot;; ma=2592000,quic=&quot;:443&quot;; ma=2592000; v=&quot;46,43&quot;
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: safebrowsing.googleapis.com
+X-HTTP-Method-Override: POST
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+Pragma: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+1&#x8;&#x5;&#x10;&#x1;&#x1a;&quot;
+ &#x18;&#x9a;&#x1d;h&#x16;&#x93;&#x87;&#xf;ÑÙ&#x85;&lt;Æó?&#xf;ö&#x8f;§y&#x90;ÿQ\&#x9f;ú&#x3;P&#x81;&#xc;oJ&quot;&#x0;*&#x3;&#x8;¬&#x2;0&#x1;
+1&#x8;&#x5;&#x10;&#x1;&#x1a;&quot;
+ 1|g&#x7;$k\¨S@JÒ&quot;¾&#x96;ÙMws&#x8d;
+å&#x9c;¨P°&#x1b;&#x93;m»6y&quot;&#x0;*&#x3;&#x8;¬&#x2;0&#x1;
+1&#x8;&#x5;&#x10;&#x1;&#x1a;&quot;
+ bK&#x18;¿F°&#x85;ëõÖ&#x94;à&#x16;®&#x1e;`Qô~&gt;0ëÉz&#x13;&#x93;Asß$ñÝ&quot;&#x0;*&#x3;&#x8;¬&#x2;0&#x1;
+1&#x8;&#x5;&#x10;&#x1;&#x1a;&quot;
+ &#x8e;&#x7;&#x80;ID&#x80;Úfw&#x3;&quot;Ñ&#x1a;&#xd;Fð9þ&#x1f;&gt;SÚ|¨&#x1c;|Io¸;B&#x92;&quot;&#x0;*&#x3;&#x8;¬&#x2;0&#x1;
+1&#x8;&#x5;&#x10;&#x1;&#x1a;&quot;
+ Æ(1øµ:Þ¤fx\ý0jÆ&#x11;ëÌr!´&#x11;&#x99;Wq5&#x1;&#x18;C&#xc;jª&quot;&#x0;*&#x3;&#x8;¬&#x2;0&#x1;&#x1a;&#x3;&#x8;¬&#x2;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://safebrowsing.googleapis.com/v4/fullHashes:find?%24ct=application%2Fx-protobuf&amp;key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&amp;%24httpMethod=POST&amp;%24req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARDJvAoaAhgJeNghcxouCAUQARoGCgQYmh1oGgYKBDF8ZwcaBgoEYksYvxoGCgSOB4BJGgYKBMYoMfggAQ%3D%3D</java.net.URL>
+</httpSample>
+<httpSample t="25403" it="0" lt="25402" ct="267" ts="1613104996723" s="true" lb="-25" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:42 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(3,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132447&amp;pw=ypx9IARnXz&amp;ser=14949001&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25392" it="0" lt="25392" ct="253" ts="1613105004773" s="true" lb="-27" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:50 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(4,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132403&amp;pw=ym7Qj6befw&amp;ser=65513491&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="373" it="0" lt="373" ct="259" ts="1613105035066" s="true" lb="-37" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="243" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:56 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132447&amp;pw=ypx9IARnXz&amp;ns=chat-tienda-cerca
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- --&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?disconn=t&amp;id=132447&amp;pw=ypx9IARnXz</java.net.URL>
+</httpSample>
+<httpSample t="18914" it="0" lt="0" ct="240" ts="1613105016528" s="false" lb="-28" rc="Non HTTP response code: org.apache.http.client.ClientProtocolException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1873" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: s-usc1c-nss-269.firebaseio.com
+Sec-WebSocket-Key: pWoSXiIzoMyzcdZEznxHUA==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.client.ClientProtocolException&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:245)&#xd;
+Caused by: org.apache.http.ProtocolException: The server failed to respond with a valid HTTP response&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:149)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	... 6 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.ws?v=5&amp;s=62Txce6oA6INW0creaGqyKLS4zmKfoDS&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="375" it="0" lt="375" ct="262" ts="1613105035075" s="true" lb="-38" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="243" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:56 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132403&amp;pw=ym7Qj6befw&amp;ns=chat-tienda-cerca
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- --&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?disconn=t&amp;id=132403&amp;pw=ym7Qj6befw</java.net.URL>
+</httpSample>
+<httpSample t="39397" it="0" lt="0" ct="287" ts="1613104996058" s="false" lb="-21" rc="Non HTTP response code: org.apache.http.client.ClientProtocolException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1873" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: s-usc1c-nss-269.firebaseio.com
+Sec-WebSocket-Key: u6rqPE/T0rLMsFNUq1bacw==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.client.ClientProtocolException&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:245)&#xd;
+Caused by: org.apache.http.ProtocolException: The server failed to respond with a valid HTTP response&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:149)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	... 6 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.ws?v=5&amp;s=iRkgY4tiIXv4m2IRditx7bKh4pUtgzva&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="377" it="0" lt="376" ct="255" ts="1613105035492" s="true" lb="-40" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="658" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:56 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 421
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+function pLPCommand(c, a1, a2, a3, a4) {
+parent.window[&quot;pLPCommand2&quot;] &amp;&amp; parent.window[&quot;pLPCommand2&quot;](c, a1, a2, a3, a4);
+}
+function pRTLPCB(pN, data) {
+parent.window[&quot;pRTLPCB2&quot;] &amp;&amp; parent.window[&quot;pRTLPCB2&quot;](pN, data);
+}
+         pLPCommand(&apos;start&apos;,&apos;132539&apos;,&apos;rHgUy8tohY&apos;);
+pRTLPCB(0,[{&quot;t&quot;:&quot;c&quot;,&quot;d&quot;:{&quot;t&quot;:&quot;h&quot;,&quot;d&quot;:{&quot;ts&quot;:1613105036421,&quot;v&quot;:&quot;5&quot;,&quot;h&quot;:&quot;s-usc1c-nss-269.firebaseio.com&quot;,&quot;s&quot;:&quot;RKFRimSjRJA4yusXDhSTCg4h3c1CYGbW&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?start=t&amp;ser=60196500&amp;cb=2&amp;v=5&amp;ls=62Txce6oA6INW0creaGqyKLS4zmKfoDS&amp;p=1%3A587381329944%3Aweb%3A911c390207ddbac935f36d&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="383" it="0" lt="382" ct="261" ts="1613105035488" s="true" lb="-39" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="658" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:56 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 421
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+function pLPCommand(c, a1, a2, a3, a4) {
+parent.window[&quot;pLPCommand2&quot;] &amp;&amp; parent.window[&quot;pLPCommand2&quot;](c, a1, a2, a3, a4);
+}
+function pRTLPCB(pN, data) {
+parent.window[&quot;pRTLPCB2&quot;] &amp;&amp; parent.window[&quot;pRTLPCB2&quot;](pN, data);
+}
+         pLPCommand(&apos;start&apos;,&apos;132540&apos;,&apos;keOhP9jzAU&apos;);
+pRTLPCB(0,[{&quot;t&quot;:&quot;c&quot;,&quot;d&quot;:{&quot;t&quot;:&quot;h&quot;,&quot;d&quot;:{&quot;ts&quot;:1613105036425,&quot;v&quot;:&quot;5&quot;,&quot;h&quot;:&quot;s-usc1c-nss-269.firebaseio.com&quot;,&quot;s&quot;:&quot;qQJM2ad2qwSdYCezGtcBvcC9hvZYdgMs&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?start=t&amp;ser=50172961&amp;cb=2&amp;v=5&amp;ls=iRkgY4tiIXv4m2IRditx7bKh4pUtgzva&amp;p=1%3A587381329944%3Aweb%3A911c390207ddbac935f36d&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="377" it="0" lt="363" ct="250" ts="1613105035889" s="true" lb="-41" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="643" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:43:56 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 419
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;body&gt;&lt;script&gt;
+function EnvSendPing(destURL) {
+try{
+var xhr=new XMLHttpRequest();
+xhr.open(&quot;GET&quot;, destURL, false);
+xhr.send(null);
+} catch (e) { }
+}
+function EnvDisconnect() {
+EnvSendPing(&quot;/.lp?disconn=t&amp;id=132539&amp;pw=rHgUy8tohY&quot;);
+}
+if(window.addEventListener)
+window.addEventListener(&apos;unload&apos;,EnvDisconnect,false);
+else if(window.attachEvent)
+window.attachEvent(&apos;onunload&apos;,EnvDisconnect);
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132539&amp;pw=rHgUy8tohY&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="351" it="0" lt="351" ct="247" ts="1613105045401" s="true" lb="-50" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="243" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:06 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132539&amp;pw=rHgUy8tohY&amp;ns=chat-tienda-cerca
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!-- --&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?disconn=t&amp;id=132539&amp;pw=rHgUy8tohY</java.net.URL>
+</httpSample>
+<httpSample t="9861" it="0" lt="0" ct="263" ts="1613105035897" s="false" lb="-42" rc="Non HTTP response code: org.apache.http.client.ClientProtocolException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1873" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: s-usc1c-nss-269.firebaseio.com
+Sec-WebSocket-Key: +wBT4O925ajbZFrAOuaGHQ==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.client.ClientProtocolException&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:245)&#xd;
+Caused by: org.apache.http.ProtocolException: The server failed to respond with a valid HTTP response&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:149)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	... 6 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.ws?v=5&amp;s=RKFRimSjRJA4yusXDhSTCg4h3c1CYGbW&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="385" it="0" lt="385" ct="269" ts="1613105045780" s="true" lb="-51" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="658" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:06 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 421
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+function pLPCommand(c, a1, a2, a3, a4) {
+parent.window[&quot;pLPCommand3&quot;] &amp;&amp; parent.window[&quot;pLPCommand3&quot;](c, a1, a2, a3, a4);
+}
+function pRTLPCB(pN, data) {
+parent.window[&quot;pRTLPCB3&quot;] &amp;&amp; parent.window[&quot;pRTLPCB3&quot;](pN, data);
+}
+         pLPCommand(&apos;start&apos;,&apos;132569&apos;,&apos;jXuObd4a20&apos;);
+pRTLPCB(0,[{&quot;t&quot;:&quot;c&quot;,&quot;d&quot;:{&quot;t&quot;:&quot;h&quot;,&quot;d&quot;:{&quot;ts&quot;:1613105046726,&quot;v&quot;:&quot;5&quot;,&quot;h&quot;:&quot;s-usc1c-nss-269.firebaseio.com&quot;,&quot;s&quot;:&quot;KndlMtqkjCwo52JfkP44EawqMMElv84j&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?start=t&amp;ser=34627929&amp;cb=3&amp;v=5&amp;ls=RKFRimSjRJA4yusXDhSTCg4h3c1CYGbW&amp;p=1%3A587381329944%3Aweb%3A911c390207ddbac935f36d&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="375" it="0" lt="375" ct="258" ts="1613105046181" s="true" lb="-52" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="643" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:07 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 419
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;body&gt;&lt;script&gt;
+function EnvSendPing(destURL) {
+try{
+var xhr=new XMLHttpRequest();
+xhr.open(&quot;GET&quot;, destURL, false);
+xhr.send(null);
+} catch (e) { }
+}
+function EnvDisconnect() {
+EnvSendPing(&quot;/.lp?disconn=t&amp;id=132569&amp;pw=jXuObd4a20&quot;);
+}
+if(window.addEventListener)
+window.addEventListener(&apos;unload&apos;,EnvDisconnect,false);
+else if(window.attachEvent)
+window.attachEvent(&apos;onunload&apos;,EnvDisconnect);
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132569&amp;pw=jXuObd4a20&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="365" it="0" lt="365" ct="256" ts="1613105065497" s="true" lb="-56" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="658" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:26 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 421
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: chat-tienda-cerca.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">
+function pLPCommand(c, a1, a2, a3, a4) {
+parent.window[&quot;pLPCommand3&quot;] &amp;&amp; parent.window[&quot;pLPCommand3&quot;](c, a1, a2, a3, a4);
+}
+function pRTLPCB(pN, data) {
+parent.window[&quot;pRTLPCB3&quot;] &amp;&amp; parent.window[&quot;pRTLPCB3&quot;](pN, data);
+}
+         pLPCommand(&apos;start&apos;,&apos;132612&apos;,&apos;rPmDXkU8YW&apos;);
+pRTLPCB(0,[{&quot;t&quot;:&quot;c&quot;,&quot;d&quot;:{&quot;t&quot;:&quot;h&quot;,&quot;d&quot;:{&quot;ts&quot;:1613105066418,&quot;v&quot;:&quot;5&quot;,&quot;h&quot;:&quot;s-usc1c-nss-269.firebaseio.com&quot;,&quot;s&quot;:&quot;glApDWuDSl0yPIJzvrclYfMrtMF1HV75&quot;}}}]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://chat-tienda-cerca.firebaseio.com/.lp?start=t&amp;ser=9119337&amp;cb=3&amp;v=5&amp;ls=iRkgY4tiIXv4m2IRditx7bKh4pUtgzva&amp;p=1%3A587381329944%3Aweb%3A911c390207ddbac935f36d</java.net.URL>
+</httpSample>
+<httpSample t="366" it="0" lt="366" ct="258" ts="1613105065876" s="true" lb="-57" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="643" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:26 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 419
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;body&gt;&lt;script&gt;
+function EnvSendPing(destURL) {
+try{
+var xhr=new XMLHttpRequest();
+xhr.open(&quot;GET&quot;, destURL, false);
+xhr.send(null);
+} catch (e) { }
+}
+function EnvDisconnect() {
+EnvSendPing(&quot;/.lp?disconn=t&amp;id=132612&amp;pw=rPmDXkU8YW&quot;);
+}
+if(window.addEventListener)
+window.addEventListener(&apos;unload&apos;,EnvDisconnect,false);
+else if(window.attachEvent)
+window.attachEvent(&apos;onunload&apos;,EnvDisconnect);
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?dframe=t&amp;id=132612&amp;pw=rPmDXkU8YW&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25375" it="0" lt="25375" ct="274" ts="1613105046188" s="true" lb="-53" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:32 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(1,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503020&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25395" it="0" lt="25395" ct="268" ts="1613105065882" s="true" lb="-58" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:51 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(1,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132612&amp;pw=rPmDXkU8YW&amp;ser=85459662&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25441" it="0" lt="25441" ct="253" ts="1613105071197" s="true" lb="-61" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:44:57 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(2,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503021&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="120482" it="0" lt="0" ct="371" ts="1613104978715" s="false" lb="-11" rc="Non HTTP response code: org.apache.http.client.ClientProtocolException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1873" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: s-usc1c-nss-269.firebaseio.com
+Sec-WebSocket-Key: UDSAZtKJK+QV2Egfw32+6w==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.client.ClientProtocolException&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:245)&#xd;
+Caused by: org.apache.http.ProtocolException: The server failed to respond with a valid HTTP response&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:149)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	... 6 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.ws?v=5&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25395" it="0" lt="25394" ct="257" ts="1613105090905" s="true" lb="-62" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:16 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(2,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132612&amp;pw=rPmDXkU8YW&amp;ser=85459663&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25380" it="0" lt="25380" ct="328" ts="1613105096207" s="true" lb="-63" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:22 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(3,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503022&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25394" it="0" lt="25394" ct="255" ts="1613105115932" s="true" lb="-64" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:41 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(3,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132612&amp;pw=rPmDXkU8YW&amp;ser=85459664&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="120377" it="0" lt="120376" ct="264" ts="1613105021751" s="false" lb="-29" rc="502" rm="Bad Gateway" tn="" dt="text" de="" by="279" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 502 Bad Gateway
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:42 GMT
+Content-Type: text/html
+Content-Length: 41
+Connection: close
+ETag: &quot;5f6ba2b6-29&quot;
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;error&quot; : &quot;Internal server error.&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132447&amp;pw=ypx9IARnXz&amp;ser=14949002&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25400" it="0" lt="25400" ct="263" ts="1613105121210" s="true" lb="-65" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:47 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(4,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503023&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="120380" it="0" lt="120380" ct="267" ts="1613105029784" s="false" lb="-31" rc="502" rm="Bad Gateway" tn="" dt="text" de="" by="279" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 502 Bad Gateway
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:50 GMT
+Content-Type: text/html
+Content-Length: 41
+Connection: close
+ETag: &quot;5f6b9ff0-29&quot;
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;error&quot; : &quot;Internal server error.&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132403&amp;pw=ym7Qj6befw&amp;ser=65513492&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="120365" it="0" lt="120365" ct="256" ts="1613105035902" s="false" lb="-43" rc="502" rm="Bad Gateway" tn="" dt="text" de="" by="279" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 502 Bad Gateway
+Server: nginx
+Date: Fri, 12 Feb 2021 04:45:56 GMT
+Content-Type: text/html
+Content-Length: 41
+Connection: close
+ETag: &quot;5f6e63ff-29&quot;
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;error&quot; : &quot;Internal server error.&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132539&amp;pw=rHgUy8tohY&amp;ser=88469565&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25417" it="0" lt="25417" ct="291" ts="1613105140933" s="true" lb="-66" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:46:06 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(4,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132612&amp;pw=rPmDXkU8YW&amp;ser=85459665&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="120399" it="0" lt="0" ct="274" ts="1613105046412" s="false" lb="-54" rc="Non HTTP response code: org.apache.http.client.ClientProtocolException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1873" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: s-usc1c-nss-269.firebaseio.com
+Sec-WebSocket-Key: nFz8dCZ0E50FkhYW9xgXcw==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.client.ClientProtocolException&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:245)&#xd;
+Caused by: org.apache.http.ProtocolException: The server failed to respond with a valid HTTP response&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:149)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	... 6 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.ws?v=5&amp;s=KndlMtqkjCwo52JfkP44EawqMMElv84j&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25389" it="0" lt="25389" ct="279" ts="1613105146222" s="true" lb="-67" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:46:12 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(5,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503024&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="120350" it="0" lt="0" ct="246" ts="1613105067916" s="false" lb="-60" rc="Non HTTP response code: org.apache.http.client.ClientProtocolException" rm="Non HTTP response message: null" tn="" dt="text" de="" by="1873" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate
+Origin: https://co-tc-shopper-web-dev.serempre.dev
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Accept: */*
+Host: s-usc1c-nss-269.firebaseio.com
+Sec-WebSocket-Key: fzWeR0YwZYmHQ53EMC1hwQ==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.client.ClientProtocolException&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:245)&#xd;
+Caused by: org.apache.http.ProtocolException: The server failed to respond with a valid HTTP response&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:149)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)&#xd;
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)&#xd;
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)&#xd;
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)&#xd;
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	... 6 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.ws?v=5&amp;s=glApDWuDSl0yPIJzvrclYfMrtMF1HV75&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25385" it="0" lt="25385" ct="286" ts="1613105165945" s="true" lb="-68" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:46:31 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(5,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132612&amp;pw=rPmDXkU8YW&amp;ser=85459666&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25358" it="0" lt="25358" ct="267" ts="1613105171226" s="true" lb="-69" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:46:37 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(6,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503025&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25374" it="0" lt="25374" ct="264" ts="1613105190945" s="true" lb="-70" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:46:56 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(6,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132612&amp;pw=rPmDXkU8YW&amp;ser=85459667&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+<httpSample t="25373" it="0" lt="25373" ct="251" ts="1613105196228" s="true" lb="-71" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="251" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 12 Feb 2021 04:47:02 GMT
+Content-Type: application/javascript; charset=utf-8
+Content-Length: 15
+Connection: close
+Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://co-tc-shopper-web-dev.serempre.dev/
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Host: s-usc1c-nss-269.firebaseio.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">pRTLPCB(7,[]);
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://s-usc1c-nss-269.firebaseio.com/.lp?id=132569&amp;pw=jXuObd4a20&amp;ser=61503026&amp;ns=chat-tienda-cerca</java.net.URL>
+</httpSample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="co-tc-shopper-api-test.serempre.dev:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1142" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT co-tc-shopper-api-test.serempre.dev:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="686" it="0" lt="684" ct="219" ts="1613670557835" s="true" lb="-1" rc="200" rm="OK" tn="" dt="text" de="" by="510" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 18 Feb 2021 17:49:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-RateLimit-Limit: 100000
+X-RateLimit-Remaining: 99999
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Credentials: true
+X-Served-By: co-tc-shopper-api-test.serempre.dev
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: edfc1394-149a-4d42-8fa2-9c35fb1d3a95
+Host: co-tc-shopper-api-test.serempre.dev
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+Content-Length: 219
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;:&quot;Orden creada&quot;,&quot;id&quot;:68121}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;uid&quot;: 612,&#xd;
+    &quot;items&quot;: [&#xd;
+        {&#xd;
+            &quot;id&quot;: &quot;554&quot;,&#xd;
+            &quot;quantity&quot;: 1&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;id&quot;: &quot;552&quot;,&#xd;
+            &quot;quantity&quot;: 1&#xd;
+        }&#xd;
+    ],&#xd;
+    &quot;payment&quot;: &quot;cash&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://co-tc-shopper-api-test.serempre.dev/api/v3/consumer/shop/249/70/order</java.net.URL>
+</httpSample>
+
+<httpSample t="417" it="0" lt="416" ct="165" ts="1614191812946" s="false" lb="-1" rc="403" rm="Forbidden" tn="" dt="text" de="" by="888" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 403 Forbidden
+Connection: close
+Cache-Control: must-revalidate, no-cache, private
+Content-Language: es
+Content-Type: application/json
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Server: nginx
+Strict-Transport-Security: max-age=300
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 8 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe2-a-56484546b4-2l2xx
+X-Styx-Req-Id: 43c85b99-76cf-11eb-96ac-927f9512d15d
+X-Ua-Compatible: IE=edge
+Date: Wed, 24 Feb 2021 18:36:53 GMT
+X-Served-By: cache-mdw17346-MDW, cache-bog6423-BOG
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1614191813.126747,VS0,VE225
+Vary: Accept-Encoding
+X-Robots-Tag: noindex
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+Content-Length: 79
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: 96ac578e-acbd-409c-b9c8-d170b9268744
+Host: dev-couponera-poker.pantheonsite.io
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+Content-Length: 40
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status_code&quot;:&quot;028&quot;,&quot;message&quot;:&quot;Vuelve a iniciar sesi\u00f3n&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+   &quot;id_user&quot;: 10,
+   &quot;id_coupon&quot;: 17
+}</queryString>
+  <java.net.URL>https://dev-couponera-poker.pantheonsite.io/api/user/apply-coupon</java.net.URL>
+</httpSample>
+
+<httpSample t="61308" it="0" lt="61305" ct="194" ts="1614286236070" s="false" lb="-1" rc="503" rm="first byte timeout" tn="" dt="text" de="utf-8" by="1418" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 503 first byte timeout
+Connection: close
+Content-Length: 881
+Retry-After: 0
+Content-Type: text/html; charset=utf-8
+X-pantheon-serious-reason: We&apos;re very sorry, but the page could not be loaded properly. This should be fixed very soon, and we apologize for any inconvenience.
+Date: Thu, 25 Feb 2021 20:51:37 GMT
+Server: Pantheon
+X-Served-By: cache-bog6424-BOG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1614286237.675017,VS0,VE61087
+Vary: Cookie
+X-Robots-Tag: noindex
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: d1b19f69-832f-4e6c-bf27-bbc6c5609f90
+Host: dev-couponera-poker.pantheonsite.io
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+Content-Length: 212
+</requestHeader>
+  <responseData class="java.lang.String">
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+      &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+       &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;503 first byte timeout&lt;/title&gt;
+          &lt;style type=&quot;text/css&quot;&gt;
+            #page {width: 416px; padding: 10px; margin: 200px auto; border: 1px solid grey; background-color: #DFDFDF;}
+            body {background-color: #CCC; margin: auto;
+                  font-family: Helvetica, Ariel, sans-serif;}
+          &lt;/style&gt;
+          &lt;/head&gt;
+        &lt;!-- SERIOUS SYNTH ERROR --&gt;
+        &lt;body&gt;
+          &lt;div id=&quot;page&quot;&gt;
+            &lt;h1&gt;Page Could Not Be Loaded&lt;/h1&gt;
+            &lt;p&gt;We&apos;re very sorry, but the page could not be loaded properly. This should be fixed very soon, and we apologize for any inconvenience.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/body&gt;
+      &lt;/html&gt;
+    </responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+    &quot;id_coupon&quot;: 17,
+    &quot;name&quot;: &quot;Ivan&quot;,
+    &quot;last_name&quot;: &quot;Pruebas&quot;,
+    &quot;phone&quot;: 573124587419,
+    &quot;email&quot;: &quot;icarpintero@serempre.dev&quot;,
+    &quot;enrollment&quot;: 1,
+    &quot;marketing_assent&quot;: 1,
+    &quot;op&quot;: &quot;register&quot;
+}   </queryString>
+  <java.net.URL>https://dev-couponera-poker.pantheonsite.io/api/user/process</java.net.URL>
+</httpSample>
+
+<httpSample t="934" it="0" lt="934" ct="606" ts="1615181273531" s="false" lb="envioCertificado-1" rc="401" rm="Unauthorized" tn="" dt="text" de="utf-8" by="662" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+Connection: close
+Date: Mon, 08 Mar 2021 05:27:53 GMT
+x-amzn-RequestId: 349c5fb7-8db1-43ea-9d50-8b1a9ed0ef9e
+Access-Control-Allow-Origin: https://preprod.a2censo.com
+x-amzn-Remapped-Content-Length: 0
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: b2lZ9EUbIAMFeGA=
+Vary: Origin
+X-Powered-By: Express
+x-amzn-Remapped-Date: Mon, 08 Mar 2021 05:27:53 GMT
+X-Cache: Error from cloudfront
+Via: 1.1 69a34d4ecfe2fbe39ab011d2ee5860ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOG50-C1
+X-Amz-Cf-Id: 1s3UhhPOw7dW_14zK7jeQfOiyJ7AQlGKB7wonRRdu_bw8a2pgKDYIA==
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+apikey: pb4eYjePavmcpKFa
+Postman-Token: ec307f5a-b2bf-46dc-9613-e054299e1b98
+Origin: https://preprod.a2censo.com
+Host: api.preprod.a2censo.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+token: 
+Content-Length: 135
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;data&quot;: {&#xd;
+        &quot;attributes&quot;: {&#xd;
+            &quot;type&quot;: &quot;withholding_tax_pyme&quot;,&#xd;
+            &quot;year&quot;: &quot;2020&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>https://api.preprod.a2censo.com/certificates/mass-mailing</java.net.URL>
+</httpSample>
+
+<httpSample t="2447" it="0" lt="2447" ct="158" ts="1615183680377" s="true" lb="envioCertificado-2" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="4791" sc="1" ec="0" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 4091
+Connection: close
+Date: Mon, 08 Mar 2021 06:08:01 GMT
+x-amzn-RequestId: 508742cf-55db-44df-8744-f384f317d662
+Access-Control-Allow-Origin: https://preprod.a2censo.com
+x-amzn-Remapped-Content-Length: 4091
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: b2rR9FIHoAMFqyg=
+Vary: Origin
+X-Powered-By: Express
+ETag: W/&quot;ffb-ulq63jmjf3QMO83VFiH3dOm4Iyw&quot;
+x-amzn-Remapped-Date: Mon, 08 Mar 2021 06:08:01 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 c9d18591280ab48b39f7a8e685801259.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOG50-C1
+X-Amz-Cf-Id: FaBj0fuUUc-s9CqDqYaN8tqIja8x4gMgIJee2TfjXw8Xunv0TXJGaA==
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+apikey: pb4eYjePavmcpKFa
+Postman-Token: dff080ac-9d71-4a93-a2ca-dcdc189c236b
+Origin: https://preprod.a2censo.com
+Host: api.preprod.a2censo.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+Content-Length: 74
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;meta&quot;:{},&quot;data&quot;:{&quot;type&quot;:&quot;login&quot;,&quot;attributes&quot;:{&quot;access_token&quot;:&quot;eyJraWQiOiJCNzVGZXY1RlpKN0k0OGVPanJ0K2d6OTVPKzI3K0YxZEhGa0ZuTnk2UzNnPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4ZjJhNjFjYS01ZjNlLTRmZDktOTkxYS04ZTRmNTkxOTU5NDIiLCJldmVudF9pZCI6IjJhMDJkZjg1LWFmMDEtNDJjNy1iNzNhLTc0ZDJlNWY2ZmMzZCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2MTUxODM2ODEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX2xldzNXWVdNRiIsImV4cCI6MTYxNTE4NzI4MSwiaWF0IjoxNjE1MTgzNjgxLCJqdGkiOiJjNzEyZDlkMC1jNzQ3LTRkZjUtYjhlOS1lYWE2MzliMGQ1MTYiLCJjbGllbnRfaWQiOiI0NmlkNGQwYXFnYjNhaTRzMHNvcXAwbG8wNiIsInVzZXJuYW1lIjoiOGYyYTYxY2EtNWYzZS00ZmQ5LTk5MWEtOGU0ZjU5MTk1OTQyIn0.W9KE_f6AAQaoboF0XfGd5V7ZSiIXAX_5x4vJSrJ7QA3ys5t5Skza9jJhv07JBy-4Xt_ujB_2c9ZG4c3D36gMZCn_ni0igV0zTLXHtCIi6BIp7WvwuQzSCo1ezN7bDIRyyNSI4shqgdVbOuZZckWVJiSNTSV0bX0-tPo6PS4G5AXOJgLU_ykF4bMZwy2unOCcUt_S9Fl_Afku7zY1EV3TxK_xN3HkrC682R0316f8EqzfbMNwtfZocgUChIOZNGhatWiXCsn4aG9F8Jf1d3OM3DfmO_q6gpDZhAAEvVNViamzMlmD4Ufj8SpodNoBXPYy1n9bLRhimg6j5mrKSNLZbg&quot;,&quot;id_token&quot;:&quot;eyJraWQiOiJzWXlVWUFWcnY0ZCs5VEhHbkpjQ0hJYnh3Vk41STU1dGp5MEdYUVVaeVlNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4ZjJhNjFjYS01ZjNlLTRmZDktOTkxYS04ZTRmNTkxOTU5NDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJvZmlsZSI6IjkwMDA2NzEzNSIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX2xldzNXWVdNRiIsInBob25lX251bWJlcl92ZXJpZmllZCI6dHJ1ZSwiY29nbml0bzp1c2VybmFtZSI6IjhmMmE2MWNhLTVmM2UtNGZkOS05OTFhLThlNGY1OTE5NTk0MiIsImF1ZCI6IjQ2aWQ0ZDBhcWdiM2FpNHMwc29xcDBsbzA2IiwiZXZlbnRfaWQiOiIyYTAyZGY4NS1hZjAxLTQyYzctYjczYS03NGQyZTVmNmZjM2QiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYxNTE4MzY4MSwicGhvbmVfbnVtYmVyIjoiKzU3MzE1MjE0MzUzNSIsImV4cCI6MTYxNTE4NzI4MSwiaWF0IjoxNjE1MTgzNjgxLCJlbWFpbCI6InBydWViYXMxMzU0M0B5b3BtYWlsLmNvbSJ9.PU9lWsHeTJo3TiZS4wO84PyoyazKcvsqkjojhTlszcmY5t-38NcexhG_REfYS2CGPdwkXcnEBO0sbh-4CiWWt59dL_RsvP8-Pm8ZZ-G6PrI47LDBY4VHLyDEFuDsf4IZUCDIMCUc8QBRotzbBuDBbzD4Yv2pHUSpB-TVLwm9ikSpSWNBc86pAyWjwxgMdfKsB-H06_b97PBttZg9qHDCg6trNRC0HzkrtbiYe_l5vmmmIHaGmhbIOB-bqHuAbpeQANdfJEhx4xWsvHW6at4-dJcCbMT39DVyCA5t43p5evztzIsnM-L3KojE_wxWvJRjVHcpWSq9H1AFrvV_S8_3Qg&quot;,&quot;refresh_token&quot;:&quot;eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.bLNwKezxqkgagjN03Ms-rMpYjsk8XvQSh1lQBeGDNbutfh7U3OxHY_LGtYRvOBA90zTibwrtvmr1FGEpC7KeYED7tOTeZM75iCfhWRfcCd6UxodjowNGcnZPotTuKHHdlKDG8jk0ouroNeILjZC5Fef5bTHAztTyqKg1v9Vi4ROADIyA3N-UhxDFOp_eFCrXEm2VhpjE3A7mFl-0u7B9XRaxsWYBbLPNRVg7iIrhbx1b--XTORNmyf3blh_oj4296A8IlWFRe0p2ITihn0bmq-pUq8VHxyvX0QLGLXj0Q8tYxzuTvkGSp356OqxIONQEBf-NJBgvO2SzVu8lmJJgjw.KLkTF_UXaA65Yrbk.Sp_c4YrL6fnBinTwsBXHkvDmJuBmUHBPslJPZeJQsXb_V8T9gVw9QnCADOYrnyX7FHsyVhjcZBhKrUtXDgTbPNUGv1Z2WZz73gw1VpC92_TxTgGC33ip5oBGtmyueEhYt_T8wgF4PmglGS5yFsmo-Fxwfkyd4WJnQiexD1ByjTHEOFh6VAS9WXEuRCwLjaQfZJ01KAbJOdBSVpfS8d1zTSU7dGSSoCo1Xudfn3j2pRBYdQcPF-8M-a9H3-WhZ12eqIHS7pliA-MkDijE8_vHrWHdkQGOcMCuLz3dmD_8EPxWul8FlFa3FJKzTCCN6jwPTjQ1aUwtQoeK1ujg8PLf2H-jTKWvgArCyU_2XmKa_VhMEuPLYhkLUS82DnHqRLx-o00rK-bhHIoMiiJ5iJoVOQ-Bn54T3WZudgQftsT2R2WzXAHLrtwc53dk1UA0Pf33xVmXsM0NhCksw44Y1suL24XcDIJFZ8IWuK5DMCv69Vuv-cESkU4KiVD-xfvCIgnqc1InC7VvXORKGRTy5EuFEI0TeOJscbu8d_1dUxezl1nvMQvFtMt40II-Acmh-iAp012pKatr3wttIKC7JysZRU0aJ2go8GGp2MJl_Z83Hr9kZCKIqKpfVq9gmE7XMt0-FmT1gH1ZAH2hJpGZBY5eqLnOZ9xRAsWch_sAervQsmjts3R3dkwF2yaCPo6AhPMI_oLsWTlgYPC4SaCMCqfC9eFg5_mY_6NZwA8KmxM8h78Eq5Gt9gkwJ7hoIcZg1xzRkhY_EtdhdLg1FVMue1zzB5egCrEYcD6hlYoQ1A7oQNHUsB0hAbyCO6eYrWni593qvCBWUc9b0_pQC9IO10YaifPqQgffL5yJ6R8IT8wQOAohlAdkt_lRUv8mBaAxg01HqthXiczpSisG0RHH17ABu9QeUP33xiDui4h6AibSqIVqOBiADmz2ep624FK5loqd81K6LEJCUNl5dMLeyaFXM3WRK_kDhWJDoPpIKc8vyl5qJ0mzNrQ94Q4XQDwYicQRNHonNJY815OGkvtUWCaeQi0gtk2Fmw2L14OFcM8vsJ67h3koBQPBriioYB61IZtsW5puETqQh-Ca4NzDAgOOtwQQEUWmHmHmJ3KJu9gFsqDG-s0mUewmbM1oJ1WVRbEQYHx9heQGwcs1O1_mIfIjxxv7cFvdsAYS7KUqCwB3dsixVOkO7tZw4gsKbxIeGyZrsGujTL2OpjRXHA2hFZ0EoNSOGU2Yi-K1R7nhyPBbels78fCLEN2uesBF317pbWAU0sFk2Y1eNJHZTd24M2nUMSqTPe69HXXxT9GnE56AZ-M_n9OgnPbtabLEcoY.927cekYDoLSJZJf9q-zBhw&quot;,&quot;state&quot;:0,&quot;id_token_time&quot;:1615183681,&quot;session_timeout&quot;:3600,&quot;last_sign_in&quot;:&quot;2021-03-08 00:17:33.000000&quot;,&quot;client_ip&quot;:&quot;190.158.0.196&quot;}}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;email&quot;: &quot;pruebas13543@yopmail.com&quot;,&#xd;
+    &quot;password&quot;: &quot;Bvc2021*&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://api.preprod.a2censo.com/login</java.net.URL>
+</httpSample>
+
+<httpSample t="502" it="0" lt="501" ct="201" ts="1615184622046" s="false" lb="envioMailGMF-3" rc="500" rm="Internal Server Error" tn="" dt="text" de="utf-8" by="730" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Connection: close
+Date: Mon, 08 Mar 2021 06:23:41 GMT
+x-amzn-RequestId: 90466a92-e6dd-4ce9-9ea2-9968beedbe1d
+Access-Control-Allow-Origin: https://preprod.a2censo.com
+x-amzn-Remapped-Content-Length: 21
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: b2tlHFfBoAMFWFQ=
+Vary: Origin
+X-Powered-By: Express
+ETag: W/&quot;15-/6VXivhc2MKdLfIkLcUE47K6aH0&quot;
+x-amzn-Remapped-Date: Mon, 08 Mar 2021 06:23:41 GMT
+X-Cache: Error from cloudfront
+Via: 1.1 029192accfd6bfc8c2572988b78b92e6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOG50-C1
+X-Amz-Cf-Id: 9Hto-4qYmwScMK9RqR_LMi-LMkmJff2JA6n6XBQNSk0Pqk8-7U0dDw==
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+apikey: pb4eYjePavmcpKFa
+Postman-Token: 9b24d361-5942-403d-9e77-0906b8168761
+Origin: https://preprod.a2censo.com
+Host: api.preprod.a2censo.com
+Content-Type: application/pdf
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+token: eyJraWQiOiJzWXlVWUFWcnY0ZCs5VEhHbkpjQ0hJYnh3Vk41STU1dGp5MEdYUVVaeVlNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1ZDg2M2MxOS1hNGM4LTQ3ZDYtYjYxNy01NDFiMDc2NTdlZmEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJvZmlsZSI6IjgwMDE0OTkyMyIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX2xldzNXWVdNRiIsInBob25lX251bWJlcl92ZXJpZmllZCI6dHJ1ZSwiY29nbml0bzp1c2VybmFtZSI6IjVkODYzYzE5LWE0YzgtNDdkNi1iNjE3LTU0MWIwNzY1N2VmYSIsImF1ZCI6IjQ2aWQ0ZDBhcWdiM2FpNHMwc29xcDBsbzA2IiwiZXZlbnRfaWQiOiJkNjFiODgzMS04YjkyLTQwOTYtYjJjYi00NTUyMGM1MzZhZjEiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYxNDg3Mzk0OCwicGhvbmVfbnVtYmVyIjoiKzU3MzE1ODk0ODM5MSIsImV4cCI6MTYxNDg3NzU0OCwiaWF0IjoxNjE0ODczOTQ4LCJlbWFpbCI6InBydWViYXMxMTk3OEB5b3BtYWlsLmNvbSJ9.DzE5q5-ApP99nSgJdDn58RSwHnWbNE_P5RdU9iDVcpPialoLcmR_cIOZ7LjARJdYIC2gTxfFW_oZrWMXKNu577VNMGoFwHDQHFe8o-pAw0XxnsvlFJNdbPLATtTKGmXmzyDKPcmtizEea4iscGAgeiNoudp847GLPZQ4YcF2D7OfiOUN87rx0zXXEt4M1eNRnHNKeld5sb3xF7kQE9AKTCz85sPDZsXVLKZFE2vqbI7c3WX9ml2p_f40QJVO-SO8XWI2vmL9o4a38-JRtw_H7jpZ9Rb1qEL0_pZNn71YCs0xLQG32Vb3QbqNDiwNyMfcnW8vKsV4jaNDUWHBVYgYpA
+</requestHeader>
+  <responseData class="java.lang.String">Internal Server Error</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.preprod.a2censo.com/certificates/send-financial-tax-email/2020</java.net.URL>
+</httpSample>
+
+<httpSample t="313" it="0" lt="311" ct="179" ts="1615209169664" s="false" lb="envioMailGMF-4" rc="400" rm="Bad Request" tn="" dt="text" de="utf-8" by="770" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 65
+Connection: close
+Date: Mon, 08 Mar 2021 13:12:49 GMT
+x-amzn-RequestId: 2aadd30a-b87b-448d-b6c9-9eeea9f58c8f
+Access-Control-Allow-Origin: https://preprod.a2censo.com
+x-amzn-Remapped-Content-Length: 65
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: b3pgzGg-IAMF8EQ=
+Vary: Origin
+X-Powered-By: Express
+ETag: W/&quot;41-afy2+9uBe3QtR+ttNoa7cBC8lRY&quot;
+x-amzn-Remapped-Date: Mon, 08 Mar 2021 13:12:49 GMT
+X-Cache: Error from cloudfront
+Via: 1.1 d3ff0e382168a4991fc9b03c4e94bf70.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOG50-C1
+X-Amz-Cf-Id: NLaA9pK9uHRU2-P_Duc9AieAIRhsp2NgmIR4CbkVqfyDUDbqLG-fyw==
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+apikey: GR4B1L1TY_4CC355
+Postman-Token: 30720350-8b07-4eb3-acc2-71d60a346d33
+Origin: https://preprod.a2censo.com
+Host: api.preprod.a2censo.com
+Content-Type: application/pdf
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+token: {{token}}
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;errors&quot;:[{&quot;code&quot;:&quot;063&quot;,&quot;title&quot;:&quot;Invalid API key&quot;,&quot;detail&quot;:&quot;&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.preprod.a2censo.com/certificates/tax-financial/2020</java.net.URL>
+</httpSample>
+
+<httpSample t="334" it="0" lt="334" ct="165" ts="1615210249648" s="false" lb="envioMailGMF-5" rc="500" rm="Internal Server Error" tn="" dt="text" de="utf-8" by="730" sc="1" ec="1" ng="0" na="0" hn="LAPTOP-CFNFQMU8">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Connection: close
+Date: Mon, 08 Mar 2021 13:30:49 GMT
+x-amzn-RequestId: e24858b2-cb13-4f84-97b8-014b7f88bd9c
+Access-Control-Allow-Origin: https://preprod.a2censo.com
+x-amzn-Remapped-Content-Length: 21
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: b3sJjGvNoAMF_Og=
+Vary: Origin
+X-Powered-By: Express
+ETag: W/&quot;15-/6VXivhc2MKdLfIkLcUE47K6aH0&quot;
+x-amzn-Remapped-Date: Mon, 08 Mar 2021 13:30:49 GMT
+X-Cache: Error from cloudfront
+Via: 1.1 253857ff33cb91e760491290f306fa5c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOG50-C1
+X-Amz-Cf-Id: aPeqQvuI8WcJOZJaWhx1sotG31gHsbpiaiKKUYCxH7-p-D5jovc4kQ==
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+apikey: pb4eYjePavmcpKFa
+Postman-Token: 68f06584-3235-4dfa-9fb0-0648b0530ded
+Origin: https://preprod.a2censo.com
+Host: api.preprod.a2censo.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.26.10
+Accept: */*
+token: {{token}}
+</requestHeader>
+  <responseData class="java.lang.String">Internal Server Error</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.preprod.a2censo.com/certificates/withholding/91725</java.net.URL>
+</httpSample>
+
+</testResults>
